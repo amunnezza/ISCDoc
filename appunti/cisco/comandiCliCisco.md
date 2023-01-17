@@ -142,3 +142,66 @@ Router#show startup-config##displays the saved configuration file which will be 
 Router#write ##saves the configuration
 Router#write memory##saves the configuration
 Router#copy running-config startup-config##saves the configuration
+
+##LAB 09
+![[LAB09.png]]
+1. Configure the hostname of R1, SW1, and SW2
+
+````
+Router>ENABLE
+Router#conf t
+Enter configuration commands, one per line. End with CNTL/Z.
+Router(config)#hostname R1
+R1(config)#DO WRITE
+Building configuration...
+[OK]
+R1(config)#
+````
+
+````
+Switch>enable
+Switch#conf t
+Enter configuration commands, one per line. End with CNTL/Z.
+Switch(config)#hostname SW1
+SW1(config)#DO WRITE
+Building configuration...
+SW1(config)#
+````
+
+````
+Switch>enable
+Switch#conf t
+Enter configuration commands, one per line. End with CNTL/Z.
+Switch(config)#hostname SW2
+SW2(config)#write
+SW2(config)#do write
+Building configuration...
+[OK]
+SW2(config)#
+````
+2. Configure the appropriate IP addresses on R1, PC1, PC2, PC3, PC4
+PC1, PC2, PC3, PC4 non scrivo
+````
+R1(config-if)#ip address 172.16.255.254 255.255.0.0
+R1(config-if)#no shutdown
+R1(config-if)#
+%LINK-5-CHANGED: Interface GigabitEthernet0/0, changed state to up
+%LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to up
+````
+
+3. Manually configure the speed and duplex on interfaces connected to other
+    networking devices (not end hosts)
+
+4. Configure appropriate descriptions on each interface
+
+5. Disable interfaces which are not connected to other devices
+
+
+```
+SW1(config-if)#
+
+SW1(config-if)#interface range f0/3 - 24
+
+SW1(config-if-range)#shutdow
+
+````
