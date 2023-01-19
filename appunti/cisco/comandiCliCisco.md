@@ -12,10 +12,12 @@ sw1>enable
 "entri in modalita attiva"
 
 ----
-Da modalita attiva passi a modalita configurazione
-
+<font style="color:green">Da modalita attiva passi a modalita configurazione
+</font>
+<font style="color:red">
 
 Switch>enable
+
 Switch#conf t
 Enter configuration commands, one per line.  End with CNTL/Z.
 Switch(config)#enable password CCNA
@@ -43,8 +45,8 @@ enable password CCNA
 
 
 come vedi è leggibile in chiaro
-
-THERE ARE TWO CONFIGURATION FILE
+</font>
+<mark style="background: #ABF7F7A6;">THERE ARE TWO CONFIGURATION FILE</mark>
 Running-config = file configurazione in esecuzione
 Startup-config = File configurazione eseguito al reboot
 PER SALVARE LE CONFIGURAZIONI FATTE USA 
@@ -101,7 +103,7 @@ enable password 7 08026F6028
 !
 !
 spanning-tree mode pvst
-spanning-tree extend system-id
+<mark style="background: #CACFD9A6;">spanning-tree extend system-id</mark>
 !
 interface FastEthernet0/1
 
@@ -125,23 +127,33 @@ enable password 7 08026F6028
 !
 VEDI CHE IN QUESTO MODO NON VIENE USATO ALGORITMO 7 MA IL 5 CHE E' MD5
 
-Router>          = user EXEC mode
+<mark style="background: #ADCCFFA6;">Router>          = user EXEC mode
 Router#          = privileged EXEC mode
-Router(config)#  = global configuration mode
+Router(config)#  = global configuration mode</mark>
 Router>enable ##used to enter privileged EXEC mode
 Router#configure terminal  ##used to enter global configuration mode
-Router(config)#enable password password  ##configures a password to protect privileged exec mode
-Router(config)#service password-encryption ##encrypts the enable password (and other passwords)
-Router(config)#enable secret password ##configures a more secure, always-encrypted enable password
-Router(config)#do privileged-exec-level-command ##executes a privileged-exec level command from global configuration mode
+Router(config)#enable password password  
+### configures a password to protect privileged exec mode
+Router(config)#service password-encryption 
+### encrypts the enable password (and other passwords)
+Router(config)#enable secret password 
+### configures a more secure, always-encrypted enable password
+Router(config)#do privileged-exec-level-command 
+### executes a privileged-exec level command from global configuration mode
 
 
-Router(config)#no command##removes the command
-Router#show running-config##displays the current, active configurtion file
-Router#show startup-config##displays the saved configuration file which will be loaded if the device is restarted
-Router#write ##saves the configuration
-Router#write memory##saves the configuration
-Router#copy running-config startup-config##saves the configuration
+Router(config)#no command
+### removes the command
+Router#show running-config
+### displays the current, active configurtion file
+Router#show startup-config
+##### displays the saved configuration file which will be loaded if the device is restarted
+Router#write 
+##### saves the configuration
+Router#write memory
+##### saves the configuration
+Router#copy running-config startup-config
+##### saves the configuration
 
 ##LAB 09
 ![[LAB09.png]]
@@ -155,7 +167,7 @@ Router(config)#hostname R1
 R1(config)#DO WRITE
 Building configuration...
 [OK]
-R1(config)#
+R1(config)
 ````
 
 ````
@@ -177,7 +189,7 @@ SW2(config)#write
 SW2(config)#do write
 Building configuration...
 [OK]
-SW2(config)#
+SW2(config)#</mark>
 ````
 2. Configure the appropriate IP addresses on R1, PC1, PC2, PC3, PC4
 PC1, PC2, PC3, PC4 non scrivo
@@ -189,12 +201,12 @@ R1(config-if)#
 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to up
 ````
 
-3. Manually configure the speed and duplex on interfaces connected to other
-    networking devices (not end hosts)
+3. <mark style="background: #FFB8EBA6;">Manually configure the speed and duplex on interfaces connected to other
+    networking devices (not end hosts)</mark>
 
 4. Configure appropriate descriptions on each interface
 
-5. Disable interfaces which are not connected to other devices
+5 .#h/red  Disable interfaces which are not connected to other devices
 
 
 ```
