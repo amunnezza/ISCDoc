@@ -73,4 +73,20 @@ Gateway of last resort is not set
 L 192.168.1.254/32 is directly connected, GigabitEthernet0/1</mark>
 
 Osserva in questo caso come dare un IP a un interfaccia automaticamente crea due route una alla rete a cui IP address appartiene e una come loopback al solo indirizzo di rete a.b.c.d/32
+proseguendo nei vari settaggi andiamo per ordine . 
+
+><mark style="background: #FF5582A6;">R1#conf t</mark>
+Enter configuration commands, one per line. End with CNTL/Z.
+<mark style="background: #FF5582A6;">R1(config)#int g0/0</mark>
+<mark style="background: #FF5582A6;">R1(config-if)#ip address 192.168.12.1 255.255.255.0</mark>
+<mark style="background: #FF5582A6;">R1(config-if)#no shut</mark>
+<mark style="background: #FF5582A6;">R1#sh ip route</mark>
+Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP
+Gateway of last resort is not set
+<mark style="background: #FFF3A3A6;">192.168.1.0/24 is variably subnetted, 2 subnets, 2 masks
+C 192.168.1.0/24 is directly connected, GigabitEthernet0/1
+L 192.168.1.254/32 is directly connected, GigabitEthernet0/1
+192.168.12.0/24 is variably subnetted, 2 subnets, 2 masks
+C 192.168.12.0/24 is directly connected, GigabitEthernet0/0
+L 192.168.12.1/32 is directly connected, GigabitEthernet0/0</mark>
 
