@@ -13,34 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "appunti/cisco/comandiCliCisco.md",
-                "mode": "source",
+                "file": "pagineInteressanti/Self Paced Learning Course Websites - Hacksnation.com.md",
+                "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "4a37b16cad8f69ff",
+            "id": "bbe50e54c278fb5c",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "2023-01-18 10_16_57-Lecture_ Static Routes _ David Bombal e altre 2 pagine - Personale - Microsoft​ .png"
-              }
-            }
-          },
-          {
-            "id": "c286e4979e5bd17e",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "2023-01-18 10_16_57-Lecture_ Static Routes _ David Bombal e altre 2 pagine - Personale - Microsoft​ .png"
+                "file": "appunti/Bitcoin/TUTORIAL BITCOIN.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-01-18 10_16_57-Lecture_ Static Routes _ David Bombal e altre 2 pagine - Personale - Microsoft​ .png",
+                "file": "pagineInteressanti/Self Paced Learning Course Websites - Hacksnation.com.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-01-18 10_16_57-Lecture_ Static Routes _ David Bombal e altre 2 pagine - Personale - Microsoft​ .png",
+                "file": "pagineInteressanti/Self Paced Learning Course Websites - Hacksnation.com.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-01-18 10_16_57-Lecture_ Static Routes _ David Bombal e altre 2 pagine - Personale - Microsoft​ .png"
+                "file": "pagineInteressanti/Self Paced Learning Course Websites - Hacksnation.com.md"
               }
             }
           }
@@ -167,17 +158,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c286e4979e5bd17e",
+  "active": "1e9385ac415b164d",
   "lastOpenFiles": [
-    "pagineInteressanti/How To Get Free Proxy For Cracking - Tutorials & Methods - OneHack.Us  Tutorials For Free, Guides, Articles & Community Forum.md",
-    "pagineInteressanti/How To Get Any Paid Course For Free  Rare Trick ⭐ - Tutorials & Methods - OneHack.Us  Tutorials For Free, Guides, Articles & Community Forum.md",
-    "pagineInteressanti/Dark Web  Beginners To Advanced  Access  Tools  Complete Bible 💯 - Tutorials & Methods - OneHack.Us  Tutorials For Free, Guides, Articles & Community Forum.md",
-    "pagineInteressanti/Become A Hacker  A Complete Bible  Get Started 💯 - Tutorials & Methods - OneHack.Us  Tutorials For Free, Guides, Articles & Community Forum.md",
-    "Varie ed eventuali.md",
+    "libri/The Best Fantasy Books of All Time - Books of Brilliance.md",
+    "libri/libri di interesse.md",
+    "appunti/Bitcoin/TUTORIAL BITCOIN.md",
+    "appunti/git/Prova di funzionamento delle note.md",
+    "appunti/git/Prova di funzionamento delle note-1.md",
+    "appunti/cisco/comandiCliCisco.md",
     "2023-01-18 10_16_57-Lecture_ Static Routes _ David Bombal e altre 2 pagine - Personale - Microsoft​ .png",
-    "lab11.png",
-    "appunti/obsidianTutorial/Formatting/Code block.md",
-    "appunti/obsidianTutorial/Formatting/Callout.md",
-    "appunti/obsidianTutorial/Formatting/Blockquote.md"
+    "appunti/git/GIT.md",
+    "appunti/cisco/Static Routes.md",
+    "lab11.png"
   ]
 }
