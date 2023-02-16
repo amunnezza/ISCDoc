@@ -12,16 +12,12 @@ The Best Fantasy Books of All Time
 -   **The Name of the Wind by Patrick Rothfuss**
 -   **American Gods by Neil Gaiman**
 -   **A Wizard of Earthsea by Ursula K. Le Guin**
--   **The Lion, the Witch and the Wardrobe by C. S. Lewis**
--   **Assassin’s Apprentice by Robin Hobb**
 -   **Gardens of the Moon by Steven Erikson**
 -   **The Eye of the World by Robert Jordan**
 -   **The Night Circus by Erin Morgenstern**
--   **Harry Potter and the Sorcerer’s Stone by J. K. Rowling**
 -   **Mistborn: The Final Empire by Brandon Sanderson**
 -   **The Way of Kings by Brandon Sanderson**
 -   **The Colour of Magic by Terry Pratchett**
--   **The Hobbit by J. R. R. Tolkien**
 -   **The Blade Itself by Joe Abercrombie**
 -   **Six of Crows by Leigh Bardugo**
 -   **Storm Front by Jim Butcher**
@@ -30,8 +26,7 @@ The Best Fantasy Books of All Time
 -   **Outlander by Diana Gabaldon**
 -   **Gideon the Ninth by Tamsyn Muir**
 -   **The Dark is Rising by Susan Cooper**
--   **The Fifth Season by N.K. Jemisin**
-
+-  
 ### Old and New Fantasy Books
 
 Some of our picks are obvious and to be honest, this list was easier to make than the other ones. That is partly because I love fantasy novels and avidly have scoured dozens of lists over the years. It is no surprise to see The Lord of the Rings, A Game of Thrones, and Harry Potter on the list.
