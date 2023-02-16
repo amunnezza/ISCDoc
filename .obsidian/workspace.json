@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pagineInteressanti/Self Paced Learning Course Websites - Hacksnation.com.md",
+                "file": "pagineInteressanti/Sites for Temp Mail & SMS Activation. - Hacksnation.com.md",
                 "mode": "preview",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pagineInteressanti/Self Paced Learning Course Websites - Hacksnation.com.md",
+                "file": "pagineInteressanti/Sites for Temp Mail & SMS Activation. - Hacksnation.com.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pagineInteressanti/Self Paced Learning Course Websites - Hacksnation.com.md",
+                "file": "pagineInteressanti/Sites for Temp Mail & SMS Activation. - Hacksnation.com.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pagineInteressanti/Self Paced Learning Course Websites - Hacksnation.com.md"
+                "file": "pagineInteressanti/Sites for Temp Mail & SMS Activation. - Hacksnation.com.md"
               }
             }
           }
@@ -160,6 +160,7 @@
   },
   "active": "1e9385ac415b164d",
   "lastOpenFiles": [
+    "pagineInteressanti/Self Paced Learning Course Websites - Hacksnation.com.md",
     "libri/The Best Fantasy Books of All Time - Books of Brilliance.md",
     "libri/libri di interesse.md",
     "appunti/Bitcoin/TUTORIAL BITCOIN.md",
@@ -168,7 +169,6 @@
     "appunti/cisco/comandiCliCisco.md",
     "2023-01-18 10_16_57-Lecture_ Static Routes _ David Bombal e altre 2 pagine - Personale - Microsoft​ .png",
     "appunti/git/GIT.md",
-    "appunti/cisco/Static Routes.md",
-    "lab11.png"
+    "appunti/cisco/Static Routes.md"
   ]
 }
