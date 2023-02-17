@@ -78,3 +78,18 @@ Policies are implemented, or carried out, by people; for that, someone must 
 ![image of clipboard and cog wheel representing procedures](https://learn.isc2.org/content/enforced/9541-CC-SPT-GLOBAL-1ED-1M/build/chapter_01/assets/EDU-ELC-70060e-techart-procedures-v01.svg?_&d2lSessionVal=YNLp1lk5mWLGMCBIBeCFccQJ3&ou=9541 "image of clipboard and cog wheel representing procedures")
 
 Procedures define the explicit, repeatable activities necessary to accomplish a specific task or set of tasks. They provide supporting data, decision criteria or other explicit knowledge needed to perform each task. Procedures can address one-time or infrequent actions or common, regular occurrences. In addition, procedures establish the measurement criteria and methods to use to determine whether a task has been successfully completed. Properly documenting procedures and training personnel on how to locate and follow them is necessary for deriving the maximum organizational benefits from procedures.
+
+
+# Importance of Governance Elements
+Narrator: Regulations and laws can affect the day-to-day operations of many organizations. As we mentioned before, one example of a law with a broad impact is the General Data Protection Regulation (GDPR), which affords data protection and control to individuals within the territorial boundaries of the EU regardless of citizenship. As another example, in the United States, patient medical information is governed by the Healthcare Insurance Portability and Accountability Act of 1996 (HIPAA) and must be closely guarded. From the information security perspective, a high standard of professionalism is expected in safeguarding data on the patients’ behalf. Information security is based on trust and credibility. If something goes wrong, the stakeholders’ trust evaporates, and organizations’ credibility is damaged—sometimes without cure. HIPAA also carries significant criminal and financial penalties for noncompliance for both the organization and the individuals involved. Fortunately, there are published frameworks, or standards, to guide the organizational policies that support the compliance effort. Many departments or workgroups within the organization implement procedures that detail how they complete day-to-day tasks while remaining compliant. Among these groups is the International Organization for Standardization (ISO). ISO is an international standards body; one of the standards that ISO publishes is how to destroy data in a secure fashion.
+
+
+
+# Governance Terms
+![[regulation.png]]
+
+
+# Governance Elements
+
+The Healthcare Insurance Portability and Accountability Act of 1996 (HIPAA) is a federal **law** in the United States that requires certain actions be taken to protect health information. Many organizations use published frameworks, or **standards**, to guide the organizational **policies** that support the compliance effort. Many departments or workgroups within the organization implement **procedures** that detail how they complete day-to-day tasks while remaining compliant.
+

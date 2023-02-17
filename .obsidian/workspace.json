@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISC2/MODULE 3.md",
+                "file": "ISC2/MODULE 4.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISC2/MODULE 4.md",
+                "file": "pagineInteressanti/Web Hacking Playground  Is A Controlled Web Hacking Environment - Tools & Scripts - OneHack.Us  Tutorials For Free, Guides, Articles & Community Forum.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -159,17 +158,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "be7c6c0a90b9cdfc",
+  "active": "d6f0ea8b10d376f1",
   "lastOpenFiles": [
     "ISC2/MODULE 3.md",
+    "pagineInteressanti/Web Hacking Playground  Is A Controlled Web Hacking Environment - Tools & Scripts - OneHack.Us  Tutorials For Free, Guides, Articles & Community Forum.md",
+    "ISC2/MODULE 4.md",
     "appunti/obsidianTutorial/A basic guide to formatting notes in Obsidian.md + (FREE CHEAT SHEET).md",
     "pagineInteressanti/How To Get Any Paid Course For Free  Rare Trick ⭐ - Tutorials & Methods - OneHack.Us  Tutorials For Free, Guides, Articles & Community Forum.md",
     "pagineInteressanti/Self Paced Learning Course Websites - Hacksnation.com.md",
     "libri/The Best Fantasy Books of All Time - Books of Brilliance.md",
     "libri/libri di interesse.md",
     "pagineInteressanti/Google Search Operators The Complete List (42 Advanced Operators).md",
-    "appunti/git/Prova di funzionamento delle note-1.md",
-    "appunti/git/Prova di funzionamento delle note.md",
-    "appunti/git/GIT.md"
+    "appunti/git/Prova di funzionamento delle note-1.md"
   ]
 }
