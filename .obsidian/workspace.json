@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d6f0ea8b10d376f1",
+            "id": "cd2e0f4bb6cc0af3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISC2/MODULE 4.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "be7c6c0a90b9cdfc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pagineInteressanti/Web Hacking Playground  Is A Controlled Web Hacking Environment - Tools & Scripts - OneHack.Us  Tutorials For Free, Guides, Articles & Community Forum.md",
+                "file": "pagineInteressanti/lEGGI63 Cybersecurity Resources for Any Stage of Your Career.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ISC2/MODULE 4.md",
+                "file": "pagineInteressanti/lEGGI63 Cybersecurity Resources for Any Stage of Your Career.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ISC2/MODULE 4.md",
+                "file": "pagineInteressanti/lEGGI63 Cybersecurity Resources for Any Stage of Your Career.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISC2/MODULE 4.md"
+                "file": "pagineInteressanti/lEGGI63 Cybersecurity Resources for Any Stage of Your Career.md"
               }
             }
           }
@@ -158,17 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d6f0ea8b10d376f1",
+  "active": "cd2e0f4bb6cc0af3",
   "lastOpenFiles": [
-    "ISC2/MODULE 3.md",
-    "pagineInteressanti/Web Hacking Playground  Is A Controlled Web Hacking Environment - Tools & Scripts - OneHack.Us  Tutorials For Free, Guides, Articles & Community Forum.md",
-    "ISC2/MODULE 4.md",
-    "appunti/obsidianTutorial/A basic guide to formatting notes in Obsidian.md + (FREE CHEAT SHEET).md",
-    "pagineInteressanti/How To Get Any Paid Course For Free  Rare Trick ⭐ - Tutorials & Methods - OneHack.Us  Tutorials For Free, Guides, Articles & Community Forum.md",
+    "pagineInteressanti/LEGGI_PER_PRIMOAll of the Best Links and Resources on Cyber Security. - s0cm0nkey's Security Reference Guide.md",
     "pagineInteressanti/Self Paced Learning Course Websites - Hacksnation.com.md",
-    "libri/The Best Fantasy Books of All Time - Books of Brilliance.md",
-    "libri/libri di interesse.md",
-    "pagineInteressanti/Google Search Operators The Complete List (42 Advanced Operators).md",
-    "appunti/git/Prova di funzionamento delle note-1.md"
+    "pagineInteressanti/FIND INFORMATION ON ANY PHONE NUMBER - Hacksnation.com.md",
+    "ISC2/Capitolo 2/Intro.md",
+    "ISC2/MODULE 3.md",
+    "ISC2/Module 6.md",
+    "ISC2/MODULE 5.md",
+    "ISC2/MODULE 4.md",
+    "ISC2/termini.png",
+    "ISC2/Chapter 1 Security Principles.md"
   ]
 }
