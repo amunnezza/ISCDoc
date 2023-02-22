@@ -177,10 +177,6 @@ In Obsidian you can create ordered lists, unordered lists and checklists:
 
 ### How to add a checklist to Obsidian?
 
-![☑️](https://s.w.org/images/core/emoji/14.0.0/svg/2611.svg)This  
-![☑️](https://s.w.org/images/core/emoji/14.0.0/svg/2611.svg)is a  
-![☑️](https://s.w.org/images/core/emoji/14.0.0/svg/2611.svg)checklist
-
 ```
 - [ ] This
 - [ ] is a
