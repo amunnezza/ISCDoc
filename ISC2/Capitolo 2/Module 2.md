@@ -87,23 +87,4 @@ _Imagine that the billing department of a company suffers a complete loss in a f
 In this scenario, the BIA already identified the dependencies of customer billing inquiries and revenue. Because the company has ample cash reserves, a week without billing is acceptable during this interruption to normal business. Pre-planning was realized by having an alternate work area ready for the personnel and having the customer service department handle the billing department’s calls during the transition to temporary office space. With the execution of the plan, there was no material interruption to the company’s business or its ability to provide services to its customers—indicating a successful implementation of the business continuity plan.
 
 
-# Module 3: Understand Disaster Recovery (DR)
-
-Domain D2.2, D2.2.1, D2.2.2, D2.2.3
-
-#### Module Objective
-
--   L2.3.1 Identify the components of disaster recovery.
-
-[Download Transcripts](https://learn.isc2.org/d2l/common/dialogs/quickLink/quickLink.d2l?ou=9238&type=coursefile&fileId=build%2fchapter_02%2ftranscripts%2fChapter%202%20Module%203%20Overview.pdf)
-
-Manny: No matter how good the incident response and business continuity plans are, it seems likely that some lasting damage is going to be done. Some data is going to be lost or some services delayed. How do we get things back to normal? Tasha: That's where disaster recovery comes in. It picks up where business continuity left off. We discussed in the last module that business continuity is about maintaining critical business functions. These functions often rely on IT systems and communications. Disaster recovery planning is about restoring IT and communications back to full operation after a disruption, which we'll learn more about in this module.
-
-# The Goal of Disaster Recovery
-
-In the Business Continuity module, the essential elements of business continuity planning were explored. [Disaster recovery](https://learn.isc2.org/content/enforced/9541-CC-SPT-GLOBAL-1ED-1M/build/chapter_02/module_03/ch02-m03-The_Goal_of_Disaster_Recovery.html?d2lSessionVal=70NMBm6xPErmD3jEMoqC7TdMJ&ou=9541&d2l_body_type=3#) planning steps in where BC leaves off. When a disaster strikes or an interruption of business activities occurs, the [Disaster recovery plan (DRP)](https://learn.isc2.org/content/enforced/9541-CC-SPT-GLOBAL-1ED-1M/build/chapter_02/module_03/ch02-m03-The_Goal_of_Disaster_Recovery.html?d2lSessionVal=70NMBm6xPErmD3jEMoqC7TdMJ&ou=9541&d2l_body_type=3#) guides the actions of emergency response personnel until the end goal is reached—which is to see the business restored to full last-known reliable operations.
-
-Disaster recovery refers specifically to restoring the information technology and communications services and systems needed by an organization, both during the period of disruption caused by any event and during restoration of normal services. The recovery of a business function may be done independently of the recovery of IT and communications services; however, the recovery of IT is often crucial to the recovery and sustainment of business operations. Whereas business continuity planning is about maintaining critical business functions, disaster recovery planning is about restoring IT and communications back to full operations after a disruption.
-
-
 
