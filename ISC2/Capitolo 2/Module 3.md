@@ -45,3 +45,319 @@ Depending on the size of the organization and the number of people involved in t
 -   IT personnel will have technical guides helping them get the alternate sites up and running. 
 -   Managers and public relations personnel will have simple-to-follow, high-level documents to help them communicate the issue accurately without requiring input from team members who are busy working on the recovery.
 
+# Disaster Recovery in Action
+
+File video DisasterRecoveryAction.mkv
+Transcript:
+Narrator: An example of disaster recovery in action is the use of system backups. The timeline in this image looks backward in time from the moment of incident detection (on the right) as a way of identifying the amount of work that will be lost by reloading from a backup. Transaction processing events (the triangles) and some backup events (shown as database symbols) have been numbered as events 1 through 21 from left to right along the timeline. The green transactions (events 1 through 14) are ones that were fully processed prior to the intrusion or the start of the incident. Presumably, and if antivirus and other systems are working correctly, this may be a safe assumption. These transactions were not exposed to possible loss of integrity, authenticity, privacy, or any other required security attributes. The database symbols shown in gray (events 2, 5, 9, and 13—all prior to the event) represent some form of system and data backup that may have captured the changes to the system as a result of properly completing the green transactions. It is events 15 through 21, however, that are in doubt. They may be okay, or they may represent a lack of integrity if the data was compromised. The database backup symbols in orange, between the time of the incidence occurrence and it's being detected, are clearly in doubt as to their integrity or safety. They may contain bogus, corrupted data or they may even contain malware in a variety of forms. Moving backward in time from the detection of the incident, it's not until we get to that right most gray database symbol—event 13 the backup just before the incident occurs—that we have our last clean, trustworthy backup. Three sets of work that were lost since the incident started to occur can be identified: all transactions or changes prior to that last good backup that were not part of that backup—if it was an incremental or partial backup and not a full backup—events 15, 17 through 19 and 21; all transactions and other changes processed or attempted from that backup forward in time until after the incident was detected, not started to occur; and all transactions changes, etc. that would normally have been processed from the time the incident was detected until the system was fully operational again, but were not able to be processed at all due to the disruption.
+
+
+# When Lightning Strikes
+
+File video: WhenLightingStrike.mkv
+
+Transcript
+Manny: During a bad lightning storm last night, JavaSip experienced a power surge that damaged the company computer. Sandra: (Groaning) Oh, I can't believe it. The power surge killed the computer. It won't even turn on. Now what are we going to do? Keith: Seems like we need a new computer. Sandra: Well, that's the least of our worries. What about everything that's on the computer? Everything we need to run this coffee shop is on the computer. Keith: It's okay, Mom. Remember? As part of our disaster recovery plan, Nate and I have been backing up the system every night after we close. Sandra: Are you serious? You have everything backed up? Keith: Everything. It's all on an external hard drive that we take home every night after we close. Sandra: (Laughing) Thank goodness. I'm so proud of you. See, we need you here at JavaSip. Keith: Aw, thanks, Mom. Glad I can help. It's just too bad I couldn't predict a power surge that'd impact the business like this. But look, you go get a new computer and get a surge protector while you're at it. Sandra: I agree. We do not want anything like this to ever happen again. Keith: I'll call Nate. He'll bring the backup, and we'll upload and restore everything up until last night. Sandra: Okay.
+
+# Components of Disaster Recovery
+
+Which of the following is unlikely to be a member of the disaster recovery team? (D2, L2.2.3) 
+
+ A. Executive Management
+
+Incorrect. Executive management should approve the plan and should be provided with a high-level summary of the plan.
+
+ B. Public Relations
+
+Incorrect. Public Relations should be a member of the disaster recovery plan to handle communications to all stakeholders.
+
+ C. Billing Clerk
+
+Correct. A billing clerk is not typically part of the disaster recovery team.
+
+ D. IT Personnel
+
+Incorrect. IT Personnel are primarily responsible for the disaster recovery team.
+
+Check Answer
+
+
+## luciano ciotola (username: luciociotola@gmail.com)
+
+## Attempt 1
+
+Written: Feb 23, 2023 7:07 AM - Feb 23, 2023 7:13 AM
+
+## Submission View
+
+Your quiz has been submitted successfully.
+
+**Question 1**
+
+1 / 1 point
+
+You are working in your organization's security office. You receive a call from a user who has tried to log in to the network several times with the correct credentials, with no success. This is an example of a(n)_______. (D2, L2.1.1)
+
+Question options:
+
+A) 
+
+Emergency
+
+B) 
+
+Event
+
+C) 
+
+Policy
+
+D) 
+
+Disaster
+
+View question 1 feedback
+
+**Question 2**
+
+1 / 1 point
+
+You are working in your organization's security office. You receive a call from a user who has tried to log in to the network several times with the correct credentials, with no success. After a brief investigation, you determine that the user's account has been compromised. This is an example of a(n)_______. (D2, L2.1.1)
+
+Question options:
+
+A) 
+
+Risk management
+
+B) 
+
+Incident detection
+
+C) 
+
+Malware
+
+D) 
+
+Disaster
+
+View question 2 feedback
+
+**Question 3**
+
+0 / 1 point
+
+An external entity has tried to gain access to your organization's IT environment without proper authorization. This is an example of a(n) _________. (D2, L2.1.1)
+
+Question options:
+
+A) 
+
+Exploit
+
+B) 
+
+Intrusion
+
+C) 
+
+Event
+
+D) 
+
+Malware
+
+Hide question 3 feedback
+
+Incorrect. While this is, in the most general sense, an event (because it is something in the IT environment that can be measured), the term "intrusion" is a much more specific, accurate description of the situation, so B is a better answer.
+
+**Question 4**
+
+1 / 1 point
+
+When responding to a security incident, your team determines that the vulnerability that was exploited was not widely known to the security community, and that there are no currently known definitions/listings in common vulnerability databases or collections. This vulnerability and exploit might be called ______. (D2, L 2.1.1)
+
+Question options:
+
+A) 
+
+Malware
+
+B) 
+
+Critical
+
+C) 
+
+Fractal
+
+D) 
+
+Zero-day
+
+View question 4 feedback
+
+**Question 5**
+
+1 / 1 point
+
+True or False? The IT department is responsible for creating the organization's business continuity plan. (D2, L2.2.1) 
+
+Question options:
+
+True
+
+False
+
+View question 5 feedback
+
+**Question 6**
+
+1 / 1 point
+
+The Business Continuity effort for an organization is a way to ensure critical ______ functions are maintained during a disaster, emergency, or interruption to the production environment. (D2, L 2.2.1) 
+
+Question options:
+
+A) 
+
+Business
+
+B) 
+
+Technical
+
+C) 
+
+IT
+
+D) 
+
+Financial
+
+View question 6 feedback
+
+**Question 7**
+
+1 / 1 point
+
+Which of the following is very likely to be used in a disaster recovery (DR) effort? (D2, L 2.3.1)
+
+Question options:
+
+A) 
+
+Guard dogs
+
+B) 
+
+Data backups
+
+C) 
+
+Contract personnel
+
+D) 
+
+Anti-malware solutions
+
+View question 7 feedback
+
+**Question 8**
+
+1 / 1 point
+
+Which of the following is often associated with DR planning? (D2, L 2.3.1)
+
+Question options:
+
+A) 
+
+Checklists
+
+B) 
+
+Firewalls
+
+C) 
+
+Motion detectors
+
+D) 
+
+Non-repudiation
+
+View question 8 feedback
+
+**Question 9**
+
+0 / 1 point
+
+Which of these activities is often associated with DR efforts? (D2, L2.3.1)
+
+Question options:
+
+A) 
+
+Employees returning to the primary production location
+
+B) 
+
+Running anti-malware solutions
+
+C) 
+
+Scanning the IT environment for vulnerabilities
+
+D) 
+
+Zero-day exploits
+
+Hide question 9 feedback
+
+Incorrect. Anti-malware is a useful security tool, but it is not typically associated with DR efforts. 
+
+**Question 10**
+
+1 / 1 point
+
+Which of these components is very likely to be instrumental to any disaster recovery (DR) effort? (D2, L2.3.1)
+
+Question options:
+
+A) 
+
+Routers
+
+B) 
+
+Laptops
+
+C) 
+
+Firewalls
+
+D) 
+
+Backups
+
+Hide question 10 feedback
+
+Correct. Backups are often crucial in DR efforts, so that the normal production environment can be restored. 
+
+![Happy face](https://learn.isc2.org/d2l/img/0/Quizzes.Main.actFeedbackHappy.svg?v=20.23.2.16271 "Happy face")
+
+**Congratulations, you passed the quiz!**
+
+You've achieved an overall grade of 70% or higher and completed this activity.
+
+---
+
+**Attempt Score:** 
+
+80 %
+
+**Overall Grade (highest attempt):** 
+
+80 %
