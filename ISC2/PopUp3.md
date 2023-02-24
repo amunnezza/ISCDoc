@@ -15,14 +15,6 @@ Devices that enforce administrative security policies by filtering incoming traf
 ^eb22cf
 
 
-
-
-> Object  Passive information-related entity (e.g. devices, files, records, tables, processes, programs, domains) containing or receiving information. Access to an object (by subject) implies access to the information it contains. See subject.
-> NIST SP800-53-R4
-
-^4aeafa
-
-
 >Layered defense - The use of multiple controls arranged in series to provide several consecutive controls to protect an asset; aldo called defense in depth
 
 ^9bfb75
