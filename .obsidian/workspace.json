@@ -13,13 +13,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pagineInteressanti/lEGGI63 Cybersecurity Resources for Any Stage of Your Career.md",
+                "file": "ISC2/Capitolo 2/Module 3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6c54af92b0c201f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ISC2/PopUp.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6be2cf1068597755",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ISC2/PopUp.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fea8c2470fc127b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ISC2/Capitolo 2/Module 1.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,14 +122,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pagineInteressanti/lEGGI63 Cybersecurity Resources for Any Stage of Your Career.md",
-                "collapseAll": false,
+                "file": "ISC2/PopUp.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -102,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pagineInteressanti/lEGGI63 Cybersecurity Resources for Any Stage of Your Career.md",
+                "file": "ISC2/PopUp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pagineInteressanti/lEGGI63 Cybersecurity Resources for Any Stage of Your Career.md"
+                "file": "ISC2/PopUp.md"
               }
             }
           }
@@ -133,8 +170,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,17 +182,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cd2e0f4bb6cc0af3",
+  "active": "6c54af92b0c201f5",
   "lastOpenFiles": [
+    "ISC2/Capitolo 3/Module 1.md",
+    "ISC2/PopUp.md",
+    "ISC2/Capitolo 2/Module 3.md",
+    "Components of the Incident Response Plan.md",
+    "ISC2/Capitolo 2/Module 1.md",
+    "appunti/obsidianTutorial/A basic guide to formatting notes in Obsidian.md + (FREE CHEAT SHEET).md",
+    "ISC2/Capitolo 2/Module 2.md",
+    "ISC2/Capitolo 3/Intro.md",
+    "ISC2/Capitolo 3",
+    "pagineInteressanti/Sites for Temp Mail & SMS Activation. - Hacksnation.com.md",
+    "libri/The Best Fantasy Books of All Time - Books of Brilliance.md",
+    "libri/libri di interesse.md",
+    "pagineInteressanti/ChatGPT Alternative  How To Use OpenAI Playground.md",
+    "pagineInteressanti/lEGGI63 Cybersecurity Resources for Any Stage of Your Career.md",
     "pagineInteressanti/LEGGI_PER_PRIMOAll of the Best Links and Resources on Cyber Security. - s0cm0nkey's Security Reference Guide.md",
     "pagineInteressanti/Self Paced Learning Course Websites - Hacksnation.com.md",
-    "pagineInteressanti/FIND INFORMATION ON ANY PHONE NUMBER - Hacksnation.com.md",
-    "ISC2/Capitolo 2/Intro.md",
-    "ISC2/MODULE 3.md",
-    "ISC2/Module 6.md",
-    "ISC2/MODULE 5.md",
-    "ISC2/MODULE 4.md",
-    "ISC2/termini.png",
-    "ISC2/Chapter 1 Security Principles.md"
+    "pagineInteressanti/FIND INFORMATION ON ANY PHONE NUMBER - Hacksnation.com.md"
   ]
 }
