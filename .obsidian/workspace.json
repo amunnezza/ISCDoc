@@ -18,8 +18,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d4a45349793967ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ISC2/Capitolo 3/Module 4 Final.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "df51f8d506d2c865",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ISC2/Capitolo 4/Intro.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b2abb95f6c7813ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ISC2/Capitolo 4/Module 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -85,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ISC2/Capitolo 3/Module 3.md",
+                "file": "ISC2/Capitolo 4/Module 1.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ISC2/Capitolo 3/Module 3.md",
+                "file": "ISC2/Capitolo 4/Module 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISC2/Capitolo 3/Module 3.md"
+                "file": "ISC2/Capitolo 4/Module 1.md"
               }
             }
           }
@@ -145,16 +182,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6c54af92b0c201f5",
+  "active": "34cd395145f2965c",
   "lastOpenFiles": [
-    "ISC2/Capitolo 3/Mandatory Access Control (MAC).md",
+    "ISC2/Capitolo 4/Intro.md",
+    "ISC2/Capitolo 4/Module 1.md",
+    "ISC2/Capitolo 3/Module 4 Final.md",
+    "ISC2/Capitolo 4",
+    "ISC2/Capitolo 3/EDU-CC-70255-ch03_Takeaway.pdf",
+    "ISC2/Capitolo 3/Non confermato 929188.crdownload",
     "ISC2/Capitolo 3/Module 3.md",
+    "ISC2/Capitolo 3/Module 2.md",
     "ISC2/Capitolo 3/Module 1.md",
+    "ISC2/Capitolo 3/Mandatory Access Control (MAC).md",
     "triad_controls.png",
     "regulation.png",
     "control.png",
     "Components of the Incident Response Plan.md",
-    "ISC2/Capitolo 3/Module 2.md",
     "ISC2/Capitolo 2/Module 3.md",
     "ISC2/PopUp3.md",
     "EDU-ELCC-70510-defense_in_depth-techart-v01.png",
