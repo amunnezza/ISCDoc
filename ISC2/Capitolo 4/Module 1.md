@@ -161,16 +161,12 @@ The OSI model wasn’t the first or only attempt to streamline networking protoc
 
 
 , was developed in the early 1970s. The OSI model was not developed until the late 1970s. The TCP/IP protocol stack focuses on the core functions of networking.  
-
-**TCP/IP Protocol Architecture Layers** 
-
-Application Layer Defines the protocols for the transport layer.  
-
-Transport Layer Permits data to move among devices.  
-
-Internet Layer Creates/inserts packets.  
-
-Network Interface Layer How data moves through the network.  
+| **TCP/IP Protocol Architecture Layers** |                                                |
+| --------------------------------------- | ---------------------------------------------- |
+| Application Layer                       | Defines the protocols for the transport layer. |
+| Transport Layer                         | Permits data to move among devices.            |
+| Internet Layer                          | Creates/inserts packets.                       |
+|           Network Interface Layer                              |         How data moves through the network.                                          |
 
 The most widely used protocol suite is TCP/IP, but it is not just a single protocol; rather, it is a protocol stack comprising dozens of individual protocols. TCP/IP is a platform-independent protocol based on open standards. However, this is both a benefit and a drawback. TCP/IP can be found in just about every available operating system, but it consumes a significant amount of resources and is relatively easy to hack into because it was designed for ease of use rather than for security.
 
@@ -183,6 +179,15 @@ The two primary Transport Layer protocols of TCP/IP are TCP and UDP. TCP is a fu
 
 is used to determine the health of a network or a specific link. ICMP is utilized by ping, traceroute and other network management tools. The ping utility employs ICMP echo packets and bounces them off remote systems. Thus, you can use ping to determine whether the remote system is online, whether the remote system is responding promptly, whether the intermediary systems are supporting communications, and the level of performance efficiency at which the intermediary systems are communicating.
 ![[EDU-ELCC-70520-techart-tcpip_protocol-v04.jpg]]
+
+
+
+ 
+## Knowledge Check: Networking Terms and Models
+ 
+![[KnowTest.png]]
+
+
 
 # Internet Protocol (IPv4 and IPv6)
 
@@ -201,13 +206,12 @@ The nature of the addressing scheme established by IPv4 meant that network desig
 
 This table shows the private addresses available for anyone to use:
 
-**Range** 
 
-10.0.0.0 to 10.255.255.254 
-
-172.16.0.0 to 172.31.255.254 
-
-192.168.0.0 to 192.168.255.254
+**Range** |
+-------------|
+10.0.0.0 to 10.255.255.254 | 
+172.16.0.0 to 172.31.255.254 |
+192.168.0.0 to 192.168.255.254 |
 
 The first octet of 127 is reserved for a computer’s loopback address. Usually, the address 127.0.0.1 is used. The loopback address is used to provide a mechanism for self-diagnosis and troubleshooting at the machine level. This mechanism allows a network administrator to treat a local machine as if it were a remote machine and ping the network interface to establish whether it is operational.
 
@@ -224,4 +228,115 @@ An IPv6 address is shown as 8 groups of four digits. Instead of numeric (0-9) di
 -   ::1 is the local loopback address, used the same as 127.0.0.1 in IPv4.
 -   The range 2001:db8:: to 2001:db8:ffff:ffff:ffff:ffff:ffff:ffff is reserved for documentation use, just like in the examples above.
 -   fc00:: to fdff:ffff:ffff:ffff:ffff:ffff:ffff:ffff are addresses reserved for internal network use and are not routable on the internet.
+ 
+
+# Knowledge check Formatting IPv6
+
+Which of the following examples is a correctly shortened version of the address 2001:0db8:0000:0000:0000:ffff:0000:0001?
+
+A. 2001:db8::ffff:0000:1  Incorrect. The 0000 can be shortened to just 0.
+
+B. 2001:0db8:0:ffff::1  Incorrect. The multiple octets of 0000 are shortened to :: and the single octet of 0 is shortened to just 0.
+
+C. 2001:0db8::ffff:0:0001  Incorrect. The final octet can be shortened from 0001 to 1.
+
+D. 2001:db8::ffff:0:1 Correct. This is the shortened version of the address.
+
+# What is WiFi?
+
+Wireless networking is a popular method of connecting corporate and home systems because of the ease of deployment and relatively low cost. It has made networking more versatile than ever before. Workstations and portable systems are no longer tied to a cable but can roam freely within the signal range of the deployed wireless access points. However, with this freedom comes additional vulnerabilities.
+
+Wi-Fi range is generally wide enough for most homes or small offices, and range extenders may be placed strategically to extend the signal for larger campuses or homes. Over time the Wi-Fi standard has evolved, with each updated version faster than the last.  
+
+In a LAN, threat actors need to enter the physical space or immediate vicinity of the physical media itself. For wired networks, this can be done by placing sniffer taps onto cables, plugging in USB devices, or using other tools that require physical access to the network. By contrast, wireless media intrusions can happen at a distance.
+![[EDU-ELCC-70245b-What_is_Wifi-techart-v06.jpg]]
+
+# Security of the Network 
+
+TCP/IP’s vulnerabilities are numerous. Improperly implemented TCP/IP stacks in various operating systems are vulnerable to various 
+
+>[!DoS/DDoS attacks]-
+>The prevention of authorized acccess to resources or the delaying of time-critical operations. (Time critical can be milliseconds or it may be hours, depending upon the service provided). NIST SP 800-27 REV. A 
+
+>[!fragment attacks]- 
+>In a fragmenti attack, an attacker fragments traffic in such a way that a system is unable to put data packets back togheter. 
+
+>[!oversized packet attacks]-
+>Purposely sending a network packet that is larger than expected or larger than can be handled by the receiving system, causing the receiving system to fail unexpectedly. 
+
+>[!Spoofing attacks]-
+>Faking the sending address of a transmission to gain illegal entry into a secure system. CNSSI 4009-2015 
+
+
+>[!man-in-the-middle attacks]-
+>An attack where the adversary positions himself between the user and the systems so that he can intercept and alter data traveling between them. NISTIR 7711
+
+TCP/IP (as well as most protocols) is also subject to passive attacks via monitoring or sniffing. Network monitoring, or sniffing, is the act of monitoring traffic patterns to obtain information about a network. ![[EDU-ELCC-70245c-techart-Security_Network-v05.jpg]]
+
+[diagram of network with internet, router and firewall highlighted in blue]
+
+
+# Ports and Protocols (Applications/Services)
+
+There are physical ports that you connect wires to and logical ports that determine where the data/traffic goes. 
+
+
+[Physical Ports]()
+Physical ports are the ports on the routers, switches, servers, computers, etc. that you connect the wires, e.g., fiber optic cables, Cat5 cables, etc., to create a network.
+
+_Click on each tab to learn more._
+
+[Logical Ports]()
+
+When a communication connection is established between two systems, it is done using ports. A logical port (also called a socket) is little more than an address number that both ends of the communication link agree to use when transferring data. Ports allow a single IP address to be able to support multiple simultaneous communications, each using a different port number. In the Application Layer of the TCP/IP model (which includes the Session, Presentation, and Application Layers of the OSI model) reside numerous application- or service-specific protocols. Data types are mapped using port numbers associated with services. For example, web traffic (or HTTP) is port 80. Secure web traffic (or HTTPS) is port 443. Table 5.4 highlights some of these protocols and their customary or assigned ports. You’ll note that in several cases a service (or protocol) may have two ports assigned, one secure and one insecure. When in doubt, systems should be implemented using the most secure version as possible of a protocol and its services.
+
+-   Well-known ports (0–1023): These ports are related to the common protocols that are at the core of the Transport Control Protocol/Internet Protocol (TCP/IP) model, Domain Name Service (DNS), Simple Mail Transfer Protocol (SMTP), etc.
+-   Registered ports (1024–49151): These ports are often associated with proprietary applications from vendors and developers. While they are officially approved by the Internet Assigned Numbers Authority (IANA), in practice many vendors simply implement a port of their choosing. Examples include Remote Authentication Dial-In User Service (RADIUS) authentication (1812), Microsoft SQL Server (1433/1434) and the Docker REST API (2375/2376).
+-   Dynamic or private ports (49152–65535): Whenever a service is requested that is associated with well-known or registered ports, those services will respond with a dynamic port that is used for that session and then released.
+
+# Secure Ports
+
+Some network protocols transmit information in clear text, meaning it is not encrypted and should not be used. Clear text information is subject to network sniffing. This tactic uses software to inspect packets of data as they travel across the network and extract text such as usernames and passwords. Network sniffing could also reveal the content of documents and other files if they are sent via insecure protocols. The table below shows some of the insecure protocols along with recommended secure alternatives.
+
+_Click each insecure port on the left to discover why it is insecure and why the corresponding secure alternative port is preferred._ 
+
+
+| **Insecure Port** | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | **Protocol**                          | **Secure Alternative Port** | **Protocol**                                 |
+| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | --------------------------- | -------------------------------------------- |
+| 21 - FTP          | Port 21, File Transfer Protocol (FTP) sends the username and password using plaintext from the client to the server. This could be intercepted by an attacker and later used to retrieve confidential information from the server. The secure alternative, SFTP, on port 22 uses encryption to protect the user credentials and packets of data being transferred.                                                                                                                                                                                                                             | File Transfer Protocol                | 22* - SFTP                  | Secure File Transfer Protocol                |
+| 23 - Telnet       | Port 23, telnet, is used by many Linux systems and any other systems as a basic text-based terminal. All information to and from the host on a telnet connection is sent in plaintext and can be intercepted by an attacker. This includes username and password as well as all information that is being presented on the screen, since this interface is all text. Secure Shell (SSH) on port 22 uses encryption to ensure that traffic between the host and terminal is not sent in a plaintext format.                                                                                     | Telnet                                | 22* SSH                     | Secure Shell                                 |
+| 25 - SMTP         | Port 25, Simple Mail Transfer Protocol (SMTP) is the default unencrypted port for sending email messages. Since it is unencrypted, data contained within the emails could be discovered by network sniffing. The secure alternative is to use port 587 for SMTP using Transport Layer Security (TLS) which will encrypt the data between the mail client and the mail server.                                                                                                                                                                                                                  | Simple Mail Transfer Protocol         | 587 SMTP                    | SMTP with TLS                                |
+| 37 - TIME         | Port 37, Time Protocol, may be in use by legacy equipment and has mostly been replaced by using port 123 for Network Time Protocol (NTP). NTP on port 123 offers better error-handling capabilities, which reduces the likelihood of unexpected errors.                                                                                                                                                                                                                                                                                                                                        | Time Protocol                         | 123 - NTP                   | Network Time Protocol                        |
+| 53 - DNS          | Port 53, Domain Name Service (DNS), is still used widely. However, using DNS over TLS (DoT) on port 853 protects DNS information from being modified in transit.                                                                                                                                                                                                                                                                                                                                                                                                                               | Domain Name Service                   | 853 - DoT                   | DNS over TLS (DoT)                           |
+| 80 - HTTP         | Port 80, HyperText Transfer Protocol (HTTP) is the basis of nearly all web browser traffic on the internet. Information sent via HTTP is not encrypted and is susceptible to sniffing attacks. HTTPS using TLS encryption is preferred, as it protects the data in transit between the server and the browser. Note that this is often notated as SSL/TLS. Secure Sockets Layer (SSL) has been compromised is no longer considered secure. It is now recommended for web servers and clients to use Transport Layer Security (TLS) 1.3 or higher for the best protection.                      | Hyper Text Transfer Protocol          | 443 - HTTPS                 | http ON SSL/TLS                              |
+| 143 - IMAP        | Port 143, Internet Message Access Protocol (IMAP) is a protocol used for retrieving emails. IMAP traffic on port 143 is not encrypted and susceptible to network sniffing. The secure alternative is to use port 993 for IMAP, which adds SSL/TLS security to encrypt the data between the mail client and the mail server.                                                                                                                                                                                                                                                                    | Internet Message Access Protocol      | 993 - IMAP                  | IMAP for SSL/TLS                             |
+| 161/162 - SNMP    | Ports 161 and 162, Simple Network Management Protocol, are commonly used to send and receive data used for managing infrastructure devices. Because sensitive information is often included in these messages, it is recommended to use SNMP version 2 or 3 (abbreviated SNMPv2 or SNMPv3) to include encryption and additional security features. Unlike many others discussed here, all versions of SNMP use the same ports, so there is not a definitive secure and insecure pairing. Additional context will be needed to determine if information on ports 161 and 162 is secured or not. | Simple Network Management Protocol    | 161/162 SNMP                | SNMP v3                                      |
+| 445 - SMB         | Port 445, Server Message Block (SMB), is used by many versions of Windows for accessing files over the network. Files are transmitted unencrypted, and many vulnerabilities are well-known. Therefore, it is recommended that traffic on port 445 should not be allowed to pass through a firewall at the network perimeter. A more secure alternative is port 2049, Network File System (NFS). Although NFS can use encryption, it is recommended that NFS not be allowed through firewalls either.                                                                                           | Server Message Block                  | 2049 - NFS                  | Network File System                          |
+| 389 - LDAP        | Port 389, Lightweight Directory Access Protocol (LDAP), is used to communicate directory information from servers to clients. This can be an address book for email or usernames for logins. The LDAP protocol also allows records in the directory to be updated, introducing additional risk. Since LDAP is not encrypted, it is susceptible to sniffing and manipulation attacks. Lightweight Directory Access Protocol Secure (LDAPS) adds SSL/TLS security to protect the information while it is in transit.                                                                             | Lightweight Directory Access Protocol | 636 - LDAPS                 | Lightweight Directory Access Protocol Secure |
+
+
+# SYN, SYN-ACK, ACK Handshake
+
+## VIDEO AckHandShake.mkv
+
+
+Transcript
+Narrator: Between the client and the server, there is a system for synchronizing and acknowledging any request that is known as a three-way handshake. This handshake is used to establish a TCP connection between two devices. Here, we will take a simplified look at how communications are established to a web server. Depending on the exact protocol, there may be additional connection negotiation taking place. First, the client sends synchronization (SYN) packet to the web server’s port 80 or 443. This is a request to establish a connection. The web server replies to the SYN packet with an acknowledgement known as a SYN/ACK. Finally, the client acknowledges the connection with an acknowledgement (ACK). At this point, the basic connection is established, and the client and host will further negotiate secure communications over that connection.
+
+# Matching Ports with Their Secure Counterparts
+
+Which of the following protocols is a secure alternative to using telnet? (D4, L4.1.2) 
+
+ A. HTTPS
+Incorrect. HyperText Transfer Protocol Secure is the secure alternative for HTTP and uses SSL/TLS for securing website communications.
+
+ B. LDAPS
+Incorrect. Lightweight Directory Access Protocol Secure (LDAPS) is the secure alternative for Lightweight Directory Access Protocol (LDAP) and is used to exchange directory information in a secured protocol.
+
+ C. SFTP
+Incorrect. Secure File Transfer Protocol (SFTP) is the secure alternative to FTP and is used to transfer files.
+
+ D. SSH
+Correct. Secure Shell (SSH) is the secure alternative to telnet as it encrypts all traffic between the host and remote user.
+
 

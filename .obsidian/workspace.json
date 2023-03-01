@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISC2/Capitolo 4/Module 1.md",
+                "file": "ISC2/Capitolo 4/Module 2.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "108b41a2df133927",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ISC2/Capitolo 4/Module 3.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ISC2/Capitolo 4/Module 1.md",
+                "file": "ISC2/Capitolo 4/Module 3.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ISC2/Capitolo 4/Module 1.md",
+                "file": "ISC2/Capitolo 4/Module 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,11 +138,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISC2/Capitolo 4/Module 1.md"
+                "file": "ISC2/Capitolo 4/Module 3.md"
               }
             }
+          },
+          {
+            "id": "5cb759cc3e442509",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -142,42 +164,44 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6c54af92b0c201f5",
+  "active": "108b41a2df133927",
   "lastOpenFiles": [
-    "EDU-ELCC-70275-techart-Internet_Protocol-v01 (1).jpg",
-    "EDU-ELCC-70275-techart-Internet_Protocol-v01 (1).svg",
-    "Non confermato 232720.crdownload",
-    "EDU-ELCC-70275-techart-Internet_Protocol-v01.svg",
-    "Non confermato 500869.crdownload",
-    "ISC2/Capitolo 4/Intro.md",
+    "ISC2/Capitolo 4/Module 2.md",
+    "ISC2/Capitolo 4/Module 3.md",
+    "EDU-ELCC-70245f-techart-Intrusion_Prevention_System-v04.svg",
+    "EDU-ELCC-70245f-techart-Intrusion_Prevention_System-v04.jpeg",
+    "Acquisisci schermata Web_1-3-2023_14344_.jpeg",
+    "Non confermato 67664.crdownload",
     "ISC2/Capitolo 4/Module 1.md",
-    "ISC2/Capitolo 3/Module 4 Final.md",
-    "EDU-ELCC-70515-techart-osi_model-v01.svg",
-    "EDU-ELCC-70520-techart-tcpip_protocol-v04.jpg",
-    "EDU-ELCC-70520-techart-tcpip_protocol-v04.svg",
-    "Non confermato 384109.crdownload",
-    "EDU-ELCC-70515-techart-osi_model-v01.jpg",
-    "Non confermato 459583.crdownload",
-    "EDU-ELCC-70670-techart-Networking_at_Glance-v02.svg",
-    "Non confermato 463264.crdownload",
+    "EDU-ELCC-01675-techart-traditional_vs_nextgen_firewalls-v03.svg",
+    "EDU-ELCC-01675-techart-traditional_vs_nextgen_firewalls-v03.jpg",
+    "Non confermato 140916.crdownload",
+    "EDU-ELCC-70665-port_scans-v01.png",
+    "EDU-ELCC-70665-port_scans-v01.png.crdownload",
+    "EDU-ELCC-70245c-techart-Security_Network-v05.jpg",
+    "EDU-ELCC-70245c-techart-Security_Network-v05.svg",
+    "Non confermato 620489.crdownload",
+    "EDU-ELCC-70245b-What_is_Wifi-techart-v06.svg",
     "EDU-ELCC-70245a-Network_Diagram-techart-v06.svg",
-    "Non confermato 472069.crdownload",
+    "Non confermato 74347.crdownload",
+    "ISC2/Capitolo 4/Intro.md",
+    "Non confermato 232720.crdownload",
+    "Non confermato 500869.crdownload",
+    "ISC2/Capitolo 3/Module 4 Final.md",
+    "Non confermato 384109.crdownload",
+    "Non confermato 459583.crdownload",
+    "Non confermato 463264.crdownload",
     "ISC2/Capitolo 3/Module 3.md",
-    "ISC2/Capitolo 4",
-    "ISC2/Capitolo 3/EDU-CC-70255-ch03_Takeaway.pdf",
-    "ISC2/Capitolo 3/Non confermato 929188.crdownload",
     "ISC2/Capitolo 3/Module 2.md",
     "ISC2/Capitolo 3/Module 1.md",
     "ISC2/Capitolo 3/Mandatory Access Control (MAC).md",
-    "triad_controls.png",
-    "regulation.png",
     "Components of the Incident Response Plan.md",
     "ISC2/Capitolo 2/Module 3.md",
     "ISC2/PopUp3.md",
-    "Non confermato 135382.crdownload",
     "ISC2/Capitolo 2/Module 1.md",
     "ISC2/PopUp.md",
     "appunti/obsidianTutorial/A basic guide to formatting notes in Obsidian.md + (FREE CHEAT SHEET).md",
