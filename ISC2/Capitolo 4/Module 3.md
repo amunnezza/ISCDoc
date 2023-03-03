@@ -267,15 +267,10 @@ The purpose of an SLA is to document specific parameters, minimum service levels
 Which cloud deployment model provides services to only one organization? (D4, L4.3.3) 
 
  A. Public
-
 Incorrect. A public cloud is shared among many customers.
-
  B. Private
-
 Correct. A private cloud includes cloud-based assets for a single organization.
-
  C. Hybrid
-
 Incorrect. A hybrid cloud uses both public and private clouds together.
 
 
@@ -284,19 +279,149 @@ Incorrect. A hybrid cloud uses both public and private clouds together.
 Which of the following cloud service models provides the most suitable environment for customers to build and operate their own software? (D4. L4.3.3)
 
  A. SaaS
-
 Incorrect. SaaS provides access to software applications but not the equipment necessary for customers to build and operate their own software.
-
  B. IaaS
-
 Incorrect. IaaS provides use of hardware and related equipment that is retained by the provider but does not allow customers to build and operate their own software in the most suitable way, since it would also require them to manage the operating systems as well.
-
  C. PaaS
-
 Correct. PaaS typically provides a set of software building blocks and development tools, such as programming languages and supporting a run-time environment, that facilitate the construction of high-quality, scalable applications.
-
  D. SLA
-
 Incorrect. SLA is a service-level agreement and is not a cloud service deployment model.
 
-Check Answer
+
+# Network Design
+
+The objective of network design is to satisfy data communication requirements and result in efficient overall performance.
+
+_Click each tab below to learn about several elements that are considered when planning for security in a network._ 
+
+[Network Segmentation]()
+Network segmentation involves controlling traffic among networked devices. Complete or physical network segmentation occurs when a network is isolated from all outside communications, so transactions can only occur between devices within the segmented network.
+![[EDU-ELCC-70365-network_segmentation-v02.svg]]
+
+[Demilitarized Zone (DMZ)]()
+
+A DMZ is a network area that is designed to be accessed by outside visitors but is still isolated from the private network of the organization. The DMZ is often the host of public web, email, file and other resource servers.
+![[EDU-ELCC-70370-dmz-v02.svg]]
+![diagram of dimilitarized zone isolated from organization's workstations]
+
+[Virtual Local Area Network (VLAN)]
+VLANs are created by switches to logically segment a network without altering its physical topology.
+![[EDU-ELCC-70375-techart-vlan-v02.svg]]
+
+
+
+[Virtual Private Network (VPN)]()
+A virtual private network (VPN) is a communication tunnel that provides point-to-point transmission of both authentication and data traffic over an untrusted network.
+![[EDU-ELCC-70380-techart-vpn-v02.svg]]
+
+[Defense in Depth]()
+Defense in depth uses multiple types of access controls in literal or theoretical layers to help an organization avoid a monolithic security stance.
+![[EDU-ELCC-70385-techart-DID-v01.svg]]
+
+
+[Network Access Control (NAC)]()
+
+Network access control (NAC) is a concept of controlling access to an environment through strict adherence to and implementation of security policy.
+
+![[2023-03-03 08_16_07-Network Design.png]]
+
+
+# Defense in Depth
+
+Defense in depth uses a layered approach when designing the security posture of an organization. Think about a castle that holds the crown jewels. The jewels will be placed in a vaulted chamber in a central location guarded by security guards. The castle is built around the vault with additional layers of security—soldiers, walls, a moat (Fossato). The same approach is true when designing the logical security of a facility or system. Using layers of security will deter many attackers and encourage them to focus on other, easier targets. 
+
+Defense in depth provides more of a starting point for considering all types of controls—administrative, technological, and physical—that empower insiders and operators to work together to protect their organization and its systems. 
+
+Here are some examples that further explain the concept of defense in depth: 
+
+-   Data: Controls that protect the actual data with technologies such as encryption, data leak prevention, identity and access management and data controls.
+-   Application: Controls that protect the application itself with technologies such as data leak prevention, application firewalls and database monitors.
+-   Host: Every control that is placed at the endpoint level, such as antivirus, endpoint firewall, configuration and patch management.
+-   Internal network: Controls that are in place to protect uncontrolled data flow and user access across the organizational network. Relevant technologies include intrusion detection systems, intrusion prevention systems, internal firewalls and network access controls.
+-   Perimeter: Controls that protect against unauthorized access to the network. This level includes the use of technologies such as gateway firewalls, honeypots, malware analysis and secure demilitarized zones (DMZs).
+-   Physical: Controls that provide a physical barrier, such as locks, walls or access control.
+-   Policies, procedures and awareness: Administrative controls that reduce insider threats (intentional and unintentional) and identify risks as soon as they appear.![[2023-03-03 11_56_54-Defense in Depth.png]]
+
+
+# Zero Trust
+
+>[!Zero trust]- 
+>Removing the design belief that the network has any trusted space. Security is managed at each possible level, representing the most granular asset. Microsegmentation of workloads is a tool of the model
+
+networks are often microsegmented networks, with firewalls at nearly every connecting point. Zero trust encapsulates information assets, the services that apply to them and their security properties. This concept recognizes that once inside a trust-but-verify environment, a user has perhaps unlimited capabilities to roam around, identify assets and systems and potentially find exploitable vulnerabilities. Placing a greater number of firewalls or other security boundary control devices throughout the network increases the number of opportunities to detect a troublemaker before harm is done. Many enterprise architectures are pushing this to the extreme of microsegmenting their internal networks, which enforces frequent re-authentication of a user ID, as depicted in this image.  
+
+Consider a rock music concert. By traditional perimeter controls, such as firewalls, you would show your ticket at the gate and have free access to the venue, including backstage where the real rock stars are. In a zero-trust environment, additional checkpoints are added. Your identity (ticket) is validated to access the floor level seats, and again to access the backstage area. Your credentials must be valid at all 3 levels to meet the stars of the show.  
+
+Zero trust is an evolving design approach which recognizes that even the most robust access control systems have their weaknesses. It adds defenses at the user, asset and data level, rather than relying on perimeter defense. In the extreme, it insists that every process or action a user attempts to take must be authenticated and authorized; the window of trust becomes vanishingly small.  
+
+While 
+>[!microsegmentation]-
+>Part of a zero trust strategy that breaks LANs into very small, highly localized zones using firewalls or similar technologies. At the limit, this places firewall at every connection point. 
+
+adds internal perimeters, zero trust places the focus on the assets, or data, rather than the perimeter. Zero trust builds more effective gates to protect the assets directly rather than building additional or higher walls.
+![[2023-03-03 13_47_56-Zero Trust.png]]
+
+
+# Network Access Control (NAC)
+
+An organization’s network is perhaps one of its most critical assets. As such, it is vital that we both know and control access to it, both from insiders (e.g., employees, contractors) and outsiders (e.g., customers, corporate partners, vendors). We need to be able to see who and what is attempting to make a network connection.
+
+At one time, network access was limited to internal devices. Gradually, that was extended to remote connections, although initially those were the exceptions rather than the norm. This started to change with the concepts of bring your own device (BYOD) and Internet of Things (IoT).
+
+Considering just IoT for a moment, it is important to understand the range of devices that might be found within an organization. They include heating, ventilation and air conditioning (HVAC) systems that monitor the ambient temperature and adjust the heating or cooling levels automatically or air monitoring systems, through security systems, sensors and cameras, right down to vending and coffee machines. Look around your own environment and you will quickly see the scale of their use.
+
+Having identified the need for a NAC solution, we need to identify what capabilities a solution may provide. As we know, everything begins with a policy. The organization’s access control policies and associated security policies should be enforced via the NAC device(s). Remember, of course, that an access control device only enforces a policy and doesn’t create one.
+
+The NAC device will provide the network visibility needed for access security and may later be used for incident response. Aside from identifying connections, it should also be able to provide isolation for noncompliant devices within a quarantined network and provide a mechanism to “fix” the noncompliant elements, such as turning on endpoint protection. In short, the goal is to ensure that all devices wishing to join the network do so only when they comply with the requirements laid out in the organization policies. This visibility will encompass internal users as well as any temporary users such as guests or contractors, etc., and any devices they may bring with them into the organization.
+
+Let’s consider some possible use cases for NAC deployment: 
+
+-   Medical devices
+-   IoT devices
+-   BYOD/mobile devices (laptops, tablets, smartphones)
+-   Guest users and contractors
+
+As we have established, it is critically important that all mobile devices, regardless of their owner, go through an onboarding process, ideally each time a network connection is made, and that the device is identified and interrogated to ensure the organization’s policies are being met.# Network Access Control (NAC)
+
+An organization’s network is perhaps one of its most critical assets. As such, it is vital that we both know and control access to it, both from insiders (e.g., employees, contractors) and outsiders (e.g., customers, corporate partners, vendors). We need to be able to see who and what is attempting to make a network connection.
+
+At one time, network access was limited to internal devices. Gradually, that was extended to remote connections, although initially those were the exceptions rather than the norm. This started to change with the concepts of bring your own device (BYOD) and Internet of Things (IoT).
+
+Considering just IoT for a moment, it is important to understand the range of devices that might be found within an organization. They include heating, ventilation and air conditioning (HVAC) systems that monitor the ambient temperature and adjust the heating or cooling levels automatically or air monitoring systems, through security systems, sensors and cameras, right down to vending and coffee machines. Look around your own environment and you will quickly see the scale of their use.
+
+Having identified the need for a NAC solution, we need to identify what capabilities a solution may provide. As we know, everything begins with a policy. The organization’s access control policies and associated security policies should be enforced via the NAC device(s). Remember, of course, that an access control device only enforces a policy and doesn’t create one.
+
+The NAC device will provide the network visibility needed for access security and may later be used for incident response. Aside from identifying connections, it should also be able to provide isolation for noncompliant devices within a quarantined network and provide a mechanism to “fix” the noncompliant elements, such as turning on endpoint protection. In short, the goal is to ensure that all devices wishing to join the network do so only when they comply with the requirements laid out in the organization policies. This visibility will encompass internal users as well as any temporary users such as guests or contractors, etc., and any devices they may bring with them into the organization.
+
+Let’s consider some possible use cases for NAC deployment: 
+
+-   Medical devices
+-   IoT devices
+-   BYOD/mobile devices (laptops, tablets, smartphones)
+-   Guest users and contractors
+
+As we have established, it is critically important that all mobile devices, regardless of their owner, go through an onboarding process, ideally each time a network connection is made, and that the device is identified and interrogated to ensure the organization’s policies are being met.
+
+![[2023-03-03 08_16_07-Network Design.png]]
+
+# NAC Deeper Dive video
+NacDeeperDive.mkv
+
+Narrator: At its simplest form, Network Access Control, or NAC, is a way to prevent unwanted devices from connecting to a network. Some NAC systems allow for the installation of required software on the end user’s device to enforce device compliance to policy prior to connecting. A high-level example of a NAC system is hotel internet access. Typically, a user connecting to the hotel network is required to acknowledge the acceptable use policy before being allowed to access the internet. After the user clicks the acknowledge button, the device is connected to the network that enables internet access. Some hotels add an additional layer requiring the guest to enter a special password or a room number and guest name before access is granted. This prevents abuse by someone who is not a hotel guest and may even help to track network abuse to a particular user. A slightly more complex scenario is a business that separates employee BYOD devices from corporate-owned devices on the network. If the BYOD device is pre-approved and allowed to connect to the corporate network, the NAC system can validate the device using a hardware address or installed software, and even check to make sure the antivirus software and operating system software are up to date before connecting it to the network. Alternatively, if it is a personal device not allowed to connect to the corporate network, it can be redirected to the guest network for internet access without access to internal corporate resources.
+
+
+# Network Segmentation (Demilitarized Zone (DMZ))
+
+Network segmentation is also an effective way to achieve defense in depth for distributed or multi-tiered applications. The use of a demilitarized zone (DMZ), for example, is a common practice in security architecture. With a DMZ, host systems that are accessible through the firewall are physically separated from the internal network by means of secured switches or by using an additional firewall to control traffic between the web server and the internal network. Application DMZs (or semi-trusted networks) are frequently used today to limit access to application servers to those networks or systems that have a legitimate need to connect.
+![[EDU-ELCC-70370-dmz-v02.svg]]
+
+
+# DMZ Deeper Dive video
+
+DMZDeeperDive.mkv
+
+Narrator: A web front end server might be in the DMZ, but it might retrieve data from a database server that is on the other side of the firewall. 
+
+For example, you may have a network where you manage your client’s personal information, and even if the data is encrypted or obfuscated by cryptography, you need to make sure the network is completely segregated from the rest of the network with some secure switches that only an authorized individual has access to. Only authorized personnel can control the firewall settings and control the traffic between the web server and the internal network. For example, in a hospital or a doctor’s office, you would have a segregated network for the patient information and billing, and on the other side would be the electronic medical records. If they are using a web-based application for medical record services, they would have a demilitarized zone or segmented areas. And perhaps even behind the firewall, they have their own specified server to protect the critical information and keep it segregated. 
+
+It is worth noting at this point that while this course will not explore the specifics, some networks use a web application firewall (WAF) rather than a DMZ network. The WAF has an internal and an external connection like a traditional firewall, with the external traffic being filtered by the traditional or next generation firewall first. It monitors all traffic, encrypted or not, from the outside for malicious behavior before passing commands to a web server that may be internal to the network.
