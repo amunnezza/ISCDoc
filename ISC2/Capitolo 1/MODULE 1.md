@@ -14,7 +14,8 @@ Manny: The CIA triad? That sounds like something out of a James Bond movie.
 Tasha: CIA is a basic principle behind everything we do in cybersecurity. Let's find out more.
 
 # Susan's Morning Cup of Joe
-Tasha: Now that we've heard a little bit about cybersecurity as a profession, do you know who's a great person to learn more from? Manny: Who? 
+Tasha: Now that we've heard a little bit about cybersecurity as a profession, do you know who's a great person to learn more from? 
+Manny: Who? 
 Tasha: Susan! She's an SSCP, which means she earned her Systems Security Certified Practitioner certification from (ISC)2 . She's working as a data security analyst, and with the SSCP certification, her career is taking off. Susan stops into JavaSip every morning for a cup of coffee on her way to work. This morning, she observes that Keith is looking sad. 
 Susan: Hey, Keith. You having a hard morning? You seem a little down. 
 Keith: Yeah, I was up late last night, searching the internet trying to figure out what to do with my life. You're in cybersecurity, right? 
@@ -31,6 +32,7 @@ Keith: Yeah. That seems like an interesting image, all right?
 Susan: Yeah. Does that sort of thing appeal to you? Because I have heard you say that you want to help people in a meaningful way, and in cybersecurity you can help all kinds of people, companies, and even the world protect personal information and online data. 
 Keith: Yeah. I'd like to learn more about it. Thanks, Susan. Susan: Yeah, I'd love to chat more, but I should get to the office now. I don't want any bad actors penetrating our computer network while I'm out enjoying a cup of coffee. Have a good day, Keith. 
 Keith: You, too
+
 # The CIA Triad
 
 To define security, it has become common to use Confidentiality, Integrity and Availability, also known as the CIA triad. The purpose of these terms is to describe security using relevant and meaningful words that make security more understandable to management and users and define its purpose. 
@@ -48,13 +50,14 @@ Availability means that systems and data are accessible at the time users need t
 
 
 # CIA Triad Deep Dive
+
 # CIA Triad Deep Dive
 
 _Click on each tab to learn more._ 
 
 ![alt text](https://learn.isc2.org/content/enforced/9541-CC-SPT-GLOBAL-1ED-1M/build/chapter_01/assets/EDU-ELCC-02270a-techart-cia_triad-v04.svg?ou=9541 "alt text")
 
-[Confidentiality](read://https_learn.isc2.org/?url=https%3A%2F%2Flearn.isc2.org%2Fcontent%2Fenforced%2F9541-CC-SPT-GLOBAL-1ED-1M%2Fbuild%2Fchapter_01%2Fmodule_01%2Fch01-m01-CIA_Triad_Deep_Dive.html%3Fd2lSessionVal%3DINWywuo0tnJv5P4O6sN2kWZ3L%26ou%3D9541%26d2l_body_type%3D3%23#) is a difficult balance to achieve when many system users are guests or customers, and it is not known if they are accessing the system from a compromised machine or vulnerable mobile application. So, the security professional’s obligation is to regulate access—protect the data that needs protection, yet permit access to authorized individuals.
+[Confidentiality](read://https_learn.isc2.org/?url=https%3A%2F%2Flearn.isc2.org%2Fcontent%2Fenforced%2F9541-CC-SPT-GLOBAL-1ED-1M%2Fbuild%2Fchapter_01%2Fmodule_01%2Fch01-m01-CIA_Triad_Deep_Dive.html%3Fd2lSessionVal%3DINWywuo0tnJv5P4O6sN2kWZ3L%26ou%3D9541%26d2l_body_type%3D3%23#) is a difficult balance to achieve when many system users are guests or customers, and it is not known if they are accessing the system from a Compromised machine or vulnerable mobile application. So, the security professional’s obligation is to regulate access—protect the data that needs protection, yet permit access to authorized individuals.
 
 [Personally Identifiable Information (PII)](read://https_learn.isc2.org/?url=https%3A%2F%2Flearn.isc2.org%2Fcontent%2Fenforced%2F9541-CC-SPT-GLOBAL-1ED-1M%2Fbuild%2Fchapter_01%2Fmodule_01%2Fch01-m01-CIA_Triad_Deep_Dive.html%3Fd2lSessionVal%3DINWywuo0tnJv5P4O6sN2kWZ3L%26ou%3D9541%26d2l_body_type%3D3%23#) is a term related to the area of confidentiality. It pertains to any data about an individual that could be used to identify them. Other terms related to confidentiality are [protected health information (PHI)](read://https_learn.isc2.org/?url=https%3A%2F%2Flearn.isc2.org%2Fcontent%2Fenforced%2F9541-CC-SPT-GLOBAL-1ED-1M%2Fbuild%2Fchapter_01%2Fmodule_01%2Fch01-m01-CIA_Triad_Deep_Dive.html%3Fd2lSessionVal%3DINWywuo0tnJv5P4O6sN2kWZ3L%26ou%3D9541%26d2l_body_type%3D3%23#) , which is information regarding one’s health status, and [classified or sensitive information](read://https_learn.isc2.org/?url=https%3A%2F%2Flearn.isc2.org%2Fcontent%2Fenforced%2F9541-CC-SPT-GLOBAL-1ED-1M%2Fbuild%2Fchapter_01%2Fmodule_01%2Fch01-m01-CIA_Triad_Deep_Dive.html%3Fd2lSessionVal%3DINWywuo0tnJv5P4O6sN2kWZ3L%26ou%3D9541%26d2l_body_type%3D3%23#), which includes trade secrets, research, business plans and intellectual property.
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISC2/Capitolo 4/Module 3.md",
+                "file": "ISC2/Capitolo 1/MODULE 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ISC2/Capitolo 4/Module 3.md",
+                "file": "ISC2/Capitolo 1/MODULE 1.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ISC2/Capitolo 4/Module 3.md",
+                "file": "ISC2/Capitolo 1/MODULE 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISC2/Capitolo 4/Module 3.md"
+                "file": "ISC2/Capitolo 1/MODULE 1.md"
               }
             }
           },
@@ -158,9 +158,10 @@
   },
   "active": "294a2245c1fd3f7b",
   "lastOpenFiles": [
+    "ISC2/Capitolo 1/Chapter 1 Security Principles.md",
+    "ISC2/Capitolo 4/Module 3.md",
     "ISC2/Capitolo 4/images/EDU-ELCC-70370-dmz-v02.svg",
     "ISC2/Capitolo 4/images/2023-03-03 13_47_56-Zero Trust.png",
-    "ISC2/Capitolo 4/Module 3.md",
     "ISC2/Capitolo 4/images/2023-03-03 11_56_54-Defense in Depth.png",
     "ISC2/Capitolo 4/images/2023-03-03 08_16_07-Network Design.png",
     "ISC2/Capitolo 4/images/Deployment Models.png",
@@ -177,7 +178,6 @@
     "Non confermato 225266.crdownload",
     "ISC2/Capitolo 4/images/EDU-ELCC-70365-network_segmentation-v02.svg",
     "Non confermato 729415.crdownload",
-    "ISC2/Capitolo 4/images/Service Models.png",
     "2023-03-02 11_29_18-On-Premises Data Centers.png~RF55d8556.TMP",
     "2023-03-02 11_29_18-On-Premises Data Centers.png.0.pdnSave",
     "Non confermato 155308.crdownload",
