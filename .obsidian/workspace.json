@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISC2/Capitolo 1/MODULE 1.md",
-                "mode": "source",
+                "file": "ISC2/Capitolo 1/MODULE 2.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ISC2/Capitolo 1/MODULE 1.md",
+                "file": "ISC2/Capitolo 1/MODULE 2.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ISC2/Capitolo 1/MODULE 1.md",
+                "file": "ISC2/Capitolo 1/MODULE 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISC2/Capitolo 1/MODULE 1.md"
+                "file": "ISC2/Capitolo 1/MODULE 2.md"
               }
             }
           },
@@ -158,6 +158,10 @@
   },
   "active": "294a2245c1fd3f7b",
   "lastOpenFiles": [
+    "ISC2/Capitolo 1/risk Treatment.png",
+    "ISC2/Capitolo 1/MODULE 1.md",
+    "ISC2/Capitolo 1/MODULE 2.md",
+    "ISC2/Capitolo 4/images/Knowledge Check_ Security Concepts.png",
     "ISC2/Capitolo 1/Chapter 1 Security Principles.md",
     "ISC2/Capitolo 4/Module 3.md",
     "ISC2/Capitolo 4/images/EDU-ELCC-70370-dmz-v02.svg",
@@ -176,7 +180,6 @@
     "Non confermato 739785.crdownload",
     "Non confermato 787269.crdownload",
     "Non confermato 225266.crdownload",
-    "ISC2/Capitolo 4/images/EDU-ELCC-70365-network_segmentation-v02.svg",
     "Non confermato 729415.crdownload",
     "2023-03-02 11_29_18-On-Premises Data Centers.png~RF55d8556.TMP",
     "2023-03-02 11_29_18-On-Premises Data Centers.png.0.pdnSave",
@@ -200,9 +203,6 @@
     "libri/The Best Fantasy Books of All Time - Books of Brilliance.md",
     "libri/libri di interesse.md",
     "pagineInteressanti/ChatGPT Alternative  How To Use OpenAI Playground.md",
-    "pagineInteressanti/lEGGI63 Cybersecurity Resources for Any Stage of Your Career.md",
-    "pagineInteressanti/LEGGI_PER_PRIMOAll of the Best Links and Resources on Cyber Security. - s0cm0nkey's Security Reference Guide.md",
-    "pagineInteressanti/Self Paced Learning Course Websites - Hacksnation.com.md",
-    "pagineInteressanti/FIND INFORMATION ON ANY PHONE NUMBER - Hacksnation.com.md"
+    "pagineInteressanti/lEGGI63 Cybersecurity Resources for Any Stage of Your Career.md"
   ]
 }
