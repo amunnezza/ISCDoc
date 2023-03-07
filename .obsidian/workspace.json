@@ -4,46 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "0d1d05a8a5727dbe",
+        "id": "b95b969f80fb705f",
         "type": "tabs",
         "children": [
           {
-            "id": "294a2245c1fd3f7b",
+            "id": "6c305e1a830901fc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ISC2/Capitolo 1/MODULE 1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "097e07492a61acb6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3f3d83f82a0d8eef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ISC2/Capitolo 5/Module 1.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ISC2/Capitolo 5/Module 1.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ISC2/Capitolo 5/Module 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "ISC2/Capitolo 5/Module 1.md"
-              }
+              "state": {}
             }
           },
           {
@@ -180,17 +148,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3f3d83f82a0d8eef",
+  "active": "6c305e1a830901fc",
   "lastOpenFiles": [
+    "ISC2/Capitolo 5/Module 1.md",
+    "ISC2/Capitolo 1/MODULE 1.md",
     "ISC2/Capitolo 5/images/2023-03-07 13_23_01-Encryption Overview.png",
     "ISC2/Capitolo 5/images/2023-03-07 13_11_11-Encryption Overview.png",
     "ISC2/Capitolo 5/images/2023-03-07 13_07_12-Encryption Overview.png",
-    "ISC2/Capitolo 5/Module 1.md",
     "ISC2/Capitolo 5/images/2023-03-07 12_59_05-Encryption Overview.png",
     "ISC2/Capitolo 5/images/2023-03-07 12_19_01-Data Handling.png",
     "ISC2/Capitolo 5/images",
     "ISC2/Capitolo 5/Module 0 Intro Overview.md",
-    "ISC2/Capitolo 1/MODULE 1.md",
     "ISC2/Capitolo 5",
     "ISC2/Capitolo 4/images/Knowledge Check_ Security Concepts.png",
     "ISC2/KnowTest.png",
@@ -210,7 +178,6 @@
     "ISC2/Capitolo 1/MODULE 2.md",
     "ISC2/Capitolo 1/risk Treatment.png",
     "ISC2/Capitolo 1/Chapter 1 Security Principles.md",
-    "ISC2/Capitolo 4/images/EDU-ELCC-70370-dmz-v02.svg",
     "ISC2/Capitolo 3/Module 3.md",
     "ISC2/Capitolo 4/images",
     "Non confermato 631629.crdownload",
