@@ -11,8 +11,12 @@
             "id": "6c305e1a830901fc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "ISC2/Capitolo 5/Module 1.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ISC2/Capitolo 5/Module 1.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ISC2/Capitolo 5/Module 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "ISC2/Capitolo 5/Module 1.md"
+              }
             }
           },
           {
@@ -150,6 +158,11 @@
   },
   "active": "6c305e1a830901fc",
   "lastOpenFiles": [
+    "ISC2/Capitolo 5/Module 0 Intro Overview.md",
+    "ISC2/Capitolo 4/EDU-CC-70405-ch04_Takeaway.pdf",
+    "ISC2/Capitolo 4/images/Service Models.png",
+    "ISC2/Capitolo 4/Intro.md",
+    "ISC2/Capitolo 4/Module 1.md",
     "ISC2/Capitolo 5/Module 1.md",
     "ISC2/Capitolo 1/MODULE 1.md",
     "ISC2/Capitolo 5/images/2023-03-07 13_23_01-Encryption Overview.png",
@@ -158,7 +171,6 @@
     "ISC2/Capitolo 5/images/2023-03-07 12_59_05-Encryption Overview.png",
     "ISC2/Capitolo 5/images/2023-03-07 12_19_01-Data Handling.png",
     "ISC2/Capitolo 5/images",
-    "ISC2/Capitolo 5/Module 0 Intro Overview.md",
     "ISC2/Capitolo 5",
     "ISC2/Capitolo 4/images/Knowledge Check_ Security Concepts.png",
     "ISC2/KnowTest.png",
@@ -172,11 +184,8 @@
     "ISC2/Capitolo 2/Module 1.md",
     "ISC2/Capitolo 4/Module 3.md",
     "ISC2/Capitolo 4/Module 2.md",
-    "ISC2/Capitolo 4/Module 1.md",
-    "ISC2/Capitolo 4/EDU-CC-70405-ch04_Takeaway.pdf",
     "ISC2/Capitolo 4/Non confermato 478703.crdownload",
     "ISC2/Capitolo 1/MODULE 2.md",
-    "ISC2/Capitolo 1/risk Treatment.png",
     "ISC2/Capitolo 1/Chapter 1 Security Principles.md",
     "ISC2/Capitolo 3/Module 3.md",
     "ISC2/Capitolo 4/images",
@@ -184,7 +193,6 @@
     "Non confermato 868902.crdownload",
     "Non confermato 739785.crdownload",
     "Non confermato 787269.crdownload",
-    "ISC2/Capitolo 4/Intro.md",
     "ISC2/Capitolo 3/Module 2.md",
     "ISC2/Capitolo 3/Module 1.md",
     "ISC2/Capitolo 3/Mandatory Access Control (MAC).md",
