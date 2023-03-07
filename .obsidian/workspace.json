@@ -13,38 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISC2/Capitolo 4/Module 3.md",
+                "file": "ISC2/Capitolo 1/MODULE 1.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "6644d7783b24cf4a",
+            "id": "097e07492a61acb6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISC2/Capitolo 4/Module 4 final.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "0867ac2181cbee53",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ISC2/Capitolo 5/INTRO_OVERVIEW_GLANCE.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "02c509b529884d63",
+            "id": "3f3d83f82a0d8eef",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -56,7 +43,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -193,53 +180,53 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "02c509b529884d63",
+  "active": "3f3d83f82a0d8eef",
   "lastOpenFiles": [
-    "ISC2/Capitolo 5/INTRO_OVERVIEW_GLANCE.md",
+    "ISC2/Capitolo 5/images/2023-03-07 13_23_01-Encryption Overview.png",
+    "ISC2/Capitolo 5/images/2023-03-07 13_11_11-Encryption Overview.png",
+    "ISC2/Capitolo 5/images/2023-03-07 13_07_12-Encryption Overview.png",
     "ISC2/Capitolo 5/Module 1.md",
-    "ISC2/Capitolo 4/Module 4 final.md",
+    "ISC2/Capitolo 5/images/2023-03-07 12_59_05-Encryption Overview.png",
+    "ISC2/Capitolo 5/images/2023-03-07 12_19_01-Data Handling.png",
+    "ISC2/Capitolo 5/images",
+    "ISC2/Capitolo 5/Module 0 Intro Overview.md",
+    "ISC2/Capitolo 1/MODULE 1.md",
     "ISC2/Capitolo 5",
-    "ISC2/Capitolo 4/EDU-CC-70405-ch04_Takeaway.pdf",
-    "ISC2/Capitolo 4/Non confermato 745687.crdownload",
+    "ISC2/Capitolo 4/images/Knowledge Check_ Security Concepts.png",
+    "ISC2/KnowTest.png",
+    "control.png",
+    "ISC2/PopUp3.md",
+    "ISC2/Certified-in-Cybersecurity-Exam-Outline-Aug22.pdf",
+    "Components of the Incident Response Plan.md",
+    "EDU-ELCC-70670-techart-Networking_at_Glance-v02.svg",
+    "ISC2/Capitolo 4/Module 4 final.md",
+    "ISC2/Capitolo 3/Module 4 Final.md",
+    "ISC2/Capitolo 2/Module 1.md",
     "ISC2/Capitolo 4/Module 3.md",
-    "ISC2/Capitolo 4/images/EDU-ELCC-70535-techart-segmentation_embedded_systems_iot-v04.svg",
-    "ISC2/Capitolo 4/Non confermato 838889.crdownload",
+    "ISC2/Capitolo 4/Module 2.md",
+    "ISC2/Capitolo 4/Module 1.md",
+    "ISC2/Capitolo 4/EDU-CC-70405-ch04_Takeaway.pdf",
+    "ISC2/Capitolo 4/Non confermato 478703.crdownload",
     "ISC2/Capitolo 1/MODULE 2.md",
     "ISC2/Capitolo 1/risk Treatment.png",
-    "ISC2/Capitolo 1/MODULE 1.md",
-    "ISC2/Capitolo 4/images/Knowledge Check_ Security Concepts.png",
     "ISC2/Capitolo 1/Chapter 1 Security Principles.md",
     "ISC2/Capitolo 4/images/EDU-ELCC-70370-dmz-v02.svg",
-    "ISC2/Capitolo 4/images/2023-03-03 13_47_56-Zero Trust.png",
-    "ISC2/Capitolo 4/images/2023-03-03 11_56_54-Defense in Depth.png",
-    "ISC2/Capitolo 4/images/2023-03-03 08_16_07-Network Design.png",
-    "ISC2/Capitolo 4/images/Deployment Models.png",
     "ISC2/Capitolo 3/Module 3.md",
-    "ISC2/Capitolo 4/images/EDU-ELCC-70385-techart-DID-v01.svg",
-    "ISC2/Capitolo 4/images/EDU-ELCC-70375-techart-vlan-v02.svg",
     "ISC2/Capitolo 4/images",
     "Non confermato 631629.crdownload",
     "Non confermato 868902.crdownload",
     "Non confermato 739785.crdownload",
     "Non confermato 787269.crdownload",
-    "Non confermato 225266.crdownload",
-    "ISC2/Capitolo 4/Module 2.md",
-    "ISC2/Capitolo 4/Module 1.md",
     "ISC2/Capitolo 4/Intro.md",
-    "ISC2/Capitolo 3/Module 4 Final.md",
     "ISC2/Capitolo 3/Module 2.md",
     "ISC2/Capitolo 3/Module 1.md",
     "ISC2/Capitolo 3/Mandatory Access Control (MAC).md",
-    "Components of the Incident Response Plan.md",
     "ISC2/Capitolo 2/Module 3.md",
-    "ISC2/PopUp3.md",
-    "ISC2/Capitolo 2/Module 1.md",
     "ISC2/PopUp.md",
     "appunti/obsidianTutorial/A basic guide to formatting notes in Obsidian.md + (FREE CHEAT SHEET).md",
     "ISC2/Capitolo 2/Module 2.md",
     "ISC2/Capitolo 3/Intro.md",
     "pagineInteressanti/Sites for Temp Mail & SMS Activation. - Hacksnation.com.md",
-    "libri/The Best Fantasy Books of All Time - Books of Brilliance.md",
-    "libri/libri di interesse.md"
+    "libri/The Best Fantasy Books of All Time - Books of Brilliance.md"
   ]
 }
