@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISC2/Capitolo 5/Module 1.md",
-                "mode": "source",
+                "file": "ISC2/Capitolo 1/Module 6.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ISC2/Capitolo 5/Module 1.md",
+                "file": "ISC2/Capitolo 1/Module 6.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ISC2/Capitolo 5/Module 1.md",
+                "file": "ISC2/Capitolo 1/Module 6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISC2/Capitolo 5/Module 1.md"
+                "file": "ISC2/Capitolo 1/Module 6.md"
               }
             }
           },
@@ -158,12 +158,21 @@
   },
   "active": "6c305e1a830901fc",
   "lastOpenFiles": [
+    "ISC2/Capitolo 1/MODULE 5.md",
+    "ISC2/Capitolo 1/EDU-CC-70175-ch01_Takeaway.pdf",
+    "ISC2/Capitolo 1/Module 6.md",
+    "ISC2/Capitolo 1/Non confermato 610524.crdownload",
+    "ISC2/Capitolo 1/MODULE 4.md",
+    "ISC2/Capitolo 1/MODULE 3.md",
+    "ISC2/Capitolo 1/images/2023-03-08 16_24_43-What are Security Controls_.png",
+    "ISC2/Capitolo 1/images",
+    "ISC2/Capitolo 1/MODULE 2.md",
+    "ISC2/Capitolo 5/Module 1.md",
     "ISC2/Capitolo 5/Module 0 Intro Overview.md",
     "ISC2/Capitolo 4/EDU-CC-70405-ch04_Takeaway.pdf",
     "ISC2/Capitolo 4/images/Service Models.png",
     "ISC2/Capitolo 4/Intro.md",
     "ISC2/Capitolo 4/Module 1.md",
-    "ISC2/Capitolo 5/Module 1.md",
     "ISC2/Capitolo 1/MODULE 1.md",
     "ISC2/Capitolo 5/images/2023-03-07 13_23_01-Encryption Overview.png",
     "ISC2/Capitolo 5/images/2023-03-07 13_11_11-Encryption Overview.png",
@@ -178,30 +187,21 @@
     "ISC2/PopUp3.md",
     "ISC2/Certified-in-Cybersecurity-Exam-Outline-Aug22.pdf",
     "Components of the Incident Response Plan.md",
-    "EDU-ELCC-70670-techart-Networking_at_Glance-v02.svg",
     "ISC2/Capitolo 4/Module 4 final.md",
     "ISC2/Capitolo 3/Module 4 Final.md",
     "ISC2/Capitolo 2/Module 1.md",
     "ISC2/Capitolo 4/Module 3.md",
     "ISC2/Capitolo 4/Module 2.md",
     "ISC2/Capitolo 4/Non confermato 478703.crdownload",
-    "ISC2/Capitolo 1/MODULE 2.md",
     "ISC2/Capitolo 1/Chapter 1 Security Principles.md",
     "ISC2/Capitolo 3/Module 3.md",
     "ISC2/Capitolo 4/images",
     "Non confermato 631629.crdownload",
-    "Non confermato 868902.crdownload",
-    "Non confermato 739785.crdownload",
-    "Non confermato 787269.crdownload",
     "ISC2/Capitolo 3/Module 2.md",
     "ISC2/Capitolo 3/Module 1.md",
     "ISC2/Capitolo 3/Mandatory Access Control (MAC).md",
     "ISC2/Capitolo 2/Module 3.md",
     "ISC2/PopUp.md",
-    "appunti/obsidianTutorial/A basic guide to formatting notes in Obsidian.md + (FREE CHEAT SHEET).md",
-    "ISC2/Capitolo 2/Module 2.md",
-    "ISC2/Capitolo 3/Intro.md",
-    "pagineInteressanti/Sites for Temp Mail & SMS Activation. - Hacksnation.com.md",
-    "libri/The Best Fantasy Books of All Time - Books of Brilliance.md"
+    "appunti/obsidianTutorial/A basic guide to formatting notes in Obsidian.md + (FREE CHEAT SHEET).md"
   ]
 }

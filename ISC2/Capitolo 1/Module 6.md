@@ -74,3 +74,291 @@ Finally, we covered the (ISC)2 Code of Ethics, which members of the organizati
 -   **Threat Vector** - The means by which a threat actor carries out their objectives.
 -   **Token**- A physical object a user possesses and controls that is used to authenticate the user’s identity. Source: NISTIR 7711
 -   **Vulnerability** - Weakness in an information system, system security procedures, internal controls or implementation that could be exploited by a threat source. Source: NIST SP 800-30 Rev 1
+
+## luciano ciotola (username: luciociotola@gmail.com)
+
+## Attempt 2
+
+Written: Mar 8, 2023 11:41 AM - Mar 8, 2023 11:44 AM
+
+## Submission View
+
+Your quiz has been submitted successfully.
+
+**Question 1**
+
+1 / 1 point
+
+A chief information security officer (CISO) at a large organization documented a policy that establishes the acceptable use of cloud environments for all staff. This is an example of a: (D1, L1.3.1)
+
+Question options:
+
+A) 
+
+Management/Administrative control 
+
+B) 
+
+Technical control  
+
+C) 
+
+Physical control
+
+D) 
+
+Cloud control
+
+View question 1 feedback
+
+**Question 2**
+
+0 / 1 point
+
+Is it possible to avoid risk? (D1, L1.2.1) 
+
+Question options:
+
+A) 
+
+Yes
+
+B) 
+
+No
+
+C) 
+
+Sometimes
+
+D) 
+
+Never
+
+Hide question 2 feedback
+
+Incorrect. Risks can be mitigated successfully by identifying different possible risks, characterizing them and then estimating their potential for disrupting the organization.
+
+**Question 3**
+
+1 / 1 point
+
+What is meant by non-repudiation?  (D1, L1.1.1)
+
+Question options:
+
+A) 
+
+If a user does something, they can't later claim that they didn't do it.
+
+B) 
+
+Controls to protect the organization's reputation from harm due to inappropriate social media postings by employees, even if on their private accounts and personal time.    
+
+C) 
+
+It is part of the rules set by administrative controls. 
+
+D) 
+
+It is a security feature that prevents session replay attacks. 
+
+View question 3 feedback
+
+**Question 4**
+
+1 / 1 point
+
+Which of the following is NOT one of the four typical ways of managing risk?  (D1, L1.2.1)
+
+Question options:
+
+A) 
+
+Avoid
+
+B) 
+
+Accept
+
+C) 
+
+Mitigate
+
+D) 
+
+Conflate
+
+View question 4 feedback
+
+**Question 5**
+
+1 / 1 point
+
+Siobhan is deciding whether to make a purchase online; the vendor wants Siobhan to create a new user account, and is requesting Siobhan's full name, home address, credit card number, phone number, email address, the ability to send marketing messages to Siobhan, and permission to share this data with other vendors. Siobhan decides that the item for sale is not worth the value of Siobhan's personal information, and decides to not make the purchase.  
+
+What kind of risk management approach did Siobhan make? (D1, L1.2.2)
+
+Question options:
+
+A) 
+
+Avoidance
+
+B) 
+
+Acceptance
+
+C) 
+
+Mitigation
+
+D) 
+
+Transfer
+
+Hide question 5 feedback
+
+Correct. This is an example of avoidance; in order to avoid the risk of unauthorized use of the personal data, Siobhan chose not to engage in the activity. 
+
+**Question 6**
+
+1 / 1 point
+
+Guillermo is the system administrator for a midsized retail organization. Guillermo has been tasked with writing a document that describes, step-by-step, how to securely install the operating system on a new laptop. This document is an example of a ________. (D1, L1.4.1) 
+
+Question options:
+
+A) 
+
+Policy
+
+B) 
+
+Standard
+
+C) 
+
+Procedure
+
+D) 
+
+Guideline
+
+Hide question 6 feedback
+
+Correct. A procedure (sometimes referred to as a "process" document) is a description of how to perform an action. It is usually written by the office/person who performs that action on a regular basis.  
+
+**Question 7**
+
+1 / 1 point
+
+Lankesh is the security administrator for a small food-distribution company. A new law is published by the country in which Lankesh's company operates; the law conflicts with the company's policies. Which governance element should Lankesh's company follow? (D1, L1.4.2)
+
+Question options:
+
+A) 
+
+The law
+
+B) 
+
+The policy
+
+C) 
+
+Any procedures the company has created for the particular activities affected by the law
+
+D) 
+
+Lankesh should be allowed to use personal and professional judgment to make the determination of how to proceed 
+
+Hide question 7 feedback
+
+Correct. Laws are the explicit authority of the jurisdiction where any organizations operate; laws cannot be violated, regardless of internal company governance. Laws supersede everything else.  
+
+**Question 8**
+
+0 / 1 point
+
+Kristal is the security administrator for a large online service provider. Kristal learns that the company is harvesting personal data of its customers and sharing the data with local governments where the company operates, without the knowledge of the users, to allow the governments to persecute users on the basis of their political and philosophical beliefs. The published user agreement states that the company will not share personal user data with any entities without the users' explicit permission.  
+
+According to the (ISC)2 Code of Ethics, to whom does Kristal ultimately owe a duty in this situation? (D1, L1.5.1) 
+
+Question options:
+
+A) 
+
+The governments of the countries where the company operates 
+
+B) 
+
+The company Kristal works for 
+
+C) 
+
+The users
+
+D) 
+
+(ISC)2 
+
+Hide question 8 feedback
+
+This is incorrect because (ISC)2 is represented by the fourth Canon ("the profession"), which is subservient to the first Canon. 
+
+**Question 9**
+
+1 / 1 point
+
+While taking the certification exam for this certification, you notice another candidate for the certification cheating. What should you do? (D1, L1.5.1)
+
+Question options:
+
+A) 
+
+ Nothing—each person is responsible for their own actions.
+
+B) 
+
+Yell at the other candidate for violating test security.
+
+C) 
+
+Report the candidate to (ISC)2. 
+
+D) 
+
+Call local law enforcement.
+
+Hide question 9 feedback
+
+The Preamble to the (ISC)2 Code of Ethics requires that (ISC)2 membership "requires that we adhere, and be seen to adhere, to the highest ethical standards of behavior." Cheating violates this standard. (ISC)2 has enforcement mechanisms for ensuring membership complies with this requirement.  
+
+**Question 10**
+
+1 / 1 point
+
+The concept of "secrecy" is most related to which foundational aspect of security? (D1, L1.1.1) 
+
+Question options:
+
+A) 
+
+Confidentiality
+
+B) 
+
+Integrity
+
+C) 
+
+Availability
+
+D) 
+
+Plausibility
+
+Hide question 10 feedback
+
+Correct. Confidentiality is about limiting access to information/assets and is therefore most similar to secrecy.
