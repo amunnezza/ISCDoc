@@ -66,34 +66,121 @@ This quiz will help you to confirm your understanding and retention of concepts 
 
 ## Quiz Details
 
-Current Time
+## l## Submission View
 
-7:06 AM
+Your quiz has been submitted successfully.
 
-Update
+**Question 1**
+1 / 1 point
+You are working in your organization's security office. You receive a call from a user who has tried to log in to the network several times with the correct credentials, with no success. This is an example of a(n)_______. (D2, L2.1.1)
+Question options:
+A) Emergency
+B) Event
+c) Policy
+D) Disaster
+Correct. The user has reported that something measurable has occurred; at this point, we are not sure what it might be (if it is a normal occurrence, or something that poses adverse impact), so the best description is "event."
 
-Current User
+**Question 2**
+1 / 1 point
+You are working in your organization's security office. You receive a call from a user who has tried to log in to the network several times with the correct credentials, with no success. After a brief investigation, you determine that the user's account has been compromised. This is an example of a(n)_______. (D2, L2.1.1)
 
-luciano ciotola (username: luciociotola@gmail.com)
+Question options:
+A) Risk management
+B) Incident detection
+C) Malware
+d) Disaster
 
-Time Allowed
+Correct. The user's report and the subsequent identification of the problem constitute incident detection. 
 
-Unlimited (estimated time required: 0:20:00)
+**Question 3**
+0 / 1 point
+An external entity has tried to gain access to your organization's IT environment without proper authorization. This is an example of a(n) _________. (D2, L2.1.1)
+Question options:
 
-Attempts
+A) Exploit
+B) Intrusion
+c) Event
+D) Malware
 
-Allowed - Unlimited, Completed - 0
+Incorrect. While this is, in the most general sense, an event (because it is something in the IT environment that can be measured), the term "intrusion" is a much more specific, accurate description of the situation, so B is a better answer.
 
-Activity Completion Condition
+**Question 4**
+1 / 1 point
+When responding to a security incident, your team determines that the vulnerability that was exploited was not widely known to the security community, and that there are no currently known definitions/listings in common vulnerability databases or collections. This vulnerability and exploit might be called ______. (D2, L 2.1.1)
+Question options:
+A) Malware
+B) Critical
+C) Fractal
+D) Zero-day
 
-Score at least **70%** to pass the quiz and complete the activity.
+Correct. A zero-day exploit is an attack using a vulnerability that is not widely known in the industry at the time of discovery. 
 
-## Instructions
+**Question 5**
+1 / 1 point
+True or False? The IT department is responsible for creating the organization's business continuity plan. (D2, L2.2.1) 
+Question options:
+True
+False
+Hide question 5 feedback
+Correct. Members from across the organization, not just IT, should participate in creating the BCP to ensure that all systems, processes and operations are accounted for in the plan. 
 
-Before you submit the quiz, you will have the opportunity to return to questions that you may have missed or have not yet answered.
+**Question 6**
+1 / 1 point
+The Business Continuity effort for an organization is a way to ensure critical ______ functions are maintained during a disaster, emergency, or interruption to the production environment. (D2, L 2.2.1) 
+Question options:
+A) Business
+B)Technical
+C) IT
+D)Financial
 
-You can submit your quiz responses at any time.
+Correct. The Business Continuity effort is designed to ensure critical business functions continue during periods of potential interruption.
 
-Click "Start Quiz" to begin Attempt 1.
+**Question 7**
+1 / 1 point
+Which of the following is very likely to be used in a disaster recovery (DR) effort? (D2, L 2.3.1)
+Question options:
+A) Guard dogs
+B) Data backups
+C) Contract personnel
+D) Anti-malware solutions
 
-**The timer will not begin until after the set up process is finished.**
+Correct. Restoring from backups is often very useful during a DR effort. 
+
+**Question 8**
+1 / 1 point
+Which of the following is often associated with DR planning? (D2, L 2.3.1)
+Question options:
+A) Checklists
+B) Firewalls
+C) Motion detectors
+D) Non-repudiation
+
+Correct. Both BC and DR activities typically include checklists for the people participating in the effort. 
+
+**Question 9**
+0 / 1 point
+Which of these activities is often associated with DR efforts? (D2, L2.3.1)
+
+A) Employees returning to the primary production location
+B) Running anti-malware solutions
+C) Scanning the IT environment for vulnerabilities
+D) Zero-day exploits
+
+Incorrect. Vulnerability scans are a regular part of IT security practices, but not typically associated with DR efforts. 
+
+**Question 10**
+1 / 1 point
+Which of these components is very likely to be instrumental to any disaster recovery (DR) effort? (D2, L2.3.1)
+Question options:
+A) Routers
+B) Laptops
+C) Firewalls
+D) Backups
+
+Correct. Backups are often crucial in DR efforts, so that the normal production environment can be restored.
+ù
+# Chapter 2: Resource
+
+Below you will find the Chapter 2 resource. It includes the chapter summary, exam domain mapping, key takeaways and graphics, terms and definitions and formulas that were covered in the content.  
+
+ [Chapter 2 Resource](https://learn.isc2.org/content/enforced/9541-CC-SPT-GLOBAL-1ED-1M/build/chapter_02/assets/EDU-CC-70185-ch02_Takeaway.pdf?_&d2lSessionVal=mirqDyMH6jZB0EfaZWxpkEVu1&ou=9541)

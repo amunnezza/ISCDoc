@@ -9,7 +9,7 @@ Domain D1.3.1, D1.3.2, D1.3.3
 
 <font color=red>*Manny*</font> When I think about cybersecurity professionals and all the data and systems that they are charged with protecting, it makes me wonder what kind of safeguards could possibly be put in place to carry out this task. 
 <FONT COLOR  =RED>Tasha </FONT>: These safeguards are called controls, and they take several forms from securing the physical locations of server rooms to implementing technical controls to keep bad actors out of the network, and even writing policies so employees and coworkers can do their part. We'll learn more about security controls in this module.
-
+****
 # What are Security Controls?
 
 >[!Security controls]-

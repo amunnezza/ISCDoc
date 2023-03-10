@@ -12,7 +12,7 @@ Domain D1.5.1, D1.5.2, D1.5.3, D1.5.4
 
 Manny: There's so much to consider when trying to secure information. Who decides what needs to be protected and how we should go about it? 
 Tasha: That kind of oversight can come in a number of different forms. Let's find out more.
-
+****
 # Governance Elements
 
 Any business or organization exists to fulfill a purpose, whether it is to provide raw materials to an industry, manufacture equipment to build computer hardware, develop software applications, construct buildings or provide goods and services. To complete the objective requires that decisions are made, rules and practices are defined, and policies and procedures are in place to guide the organization in its pursuit of achieving its goals and mission.

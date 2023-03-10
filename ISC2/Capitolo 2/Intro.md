@@ -1,3 +1,11 @@
+# Chapter 2: Incident Response, Business Continuity and Disaster Recovery Concepts
+
+## Chapter 2 Agenda
+**Module 1:** Understand incident response (D2.3)
+**Module 2:** Understand business continuity (BC) (D2.1)
+**Module 3:** Understand disaster recovery (DR) (D2.2)
+**Module 4:** Summary
+****
 # Chapter 2 Overview
 
 This chapter focuses on the availability part of the CIA triad and the importance of maintaining availability of both human and system resources. These are usually accomplished through the implementation of Incident Response, Business Continuity (BC) and Disaster Recovery (DR) plans. While these three plans may seem to overlap in scope, they are three distinct plans that are vital to the survival of any organization.
@@ -10,30 +18,14 @@ When it comes to a career in cybersecurity, the day-to-day focus is monitoring i
 
 #### Learning Objectives
 
-#### Domain 2: Business Continuity (BC), Disaster Recovery (DR) &  
-Incident Response Concepts
+#### Domain 2: Business Continuity (BC), Disaster Recovery (DR) &  Incident Response Concepts
 
 After completing this chapter, the participant will be able to: 
-
-L2      
-
-Explain how organizations respond to, recover from and continue to operate during unplanned disruptions. 
-
-L2.1.1
-
-Recall the terms and components of incident response. 
-
-L2.2.1
-
-Summarize the components of a business continuity plan. 
-
-L2.3.1
-
-Identify the components of disaster recovery.
-
-L2.4.1
-
-Practice the terminology of and review incident response, business continuity and disaster recovery concepts.
+**L2**    Explain how organizations respond to, recover from and continue to operate during unplanned disruptions. 
+**L2.1.1** Recall the terms and components of incident response. 
+**L2.2.1** Summarize the components of a business continuity plan. 
+**L2.3.1** Identify the components of disaster recovery.
+**L2.4.1** Practice the terminology of and review incident response, business continuity and disaster recovery concepts.
 
 # Chapter at a Glance
 
