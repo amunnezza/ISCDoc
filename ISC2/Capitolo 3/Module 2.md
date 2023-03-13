@@ -16,8 +16,7 @@ Domain D3.1, D3.1.1, D3.1.2
 _Manny_: We've talked a lot about protecting systems from being accessed by unauthorized users or bad actors, but isn't there a risk of losing information through methods other than technology like break-ins and stolen laptops? 
 
 _Tasha_: That's right. Simply locking your doors is a great start when protecting data. If a thief can't get into your building, then there's less opportunity for unauthorized access to your equipment, files, and personal information. In this module, we will explore and compare the most common physical access controls employed by organizations to safeguard buildings, property, and people.
-
-
+****
 # What Are Physical Security Controls? 
 
 >[!Physical access controls]- 
@@ -26,10 +25,11 @@ _Tasha_: That's right. Simply locking your doors is a great start when protectin
 are items you can physically touch. They include physical mechanisms deployed to prevent, monitor, or detect direct contact with systems or areas within a facility. Examples of physical access controls include security guards, fences, motion detectors, locked doors/gates, sealed windows, lights, cable protection, laptop locks, badges, swipe cards, guard dogs, cameras, mantraps/turnstiles, and alarms.
 
 Physical access controls are necessary to protect the assets of a company, including its most important asset, people. When considering physical access controls, the security of the personnel always comes first, followed by securing other physical assets.
-
+****
 # Why Have Physical Security Controls?
 
 Physical access controls include fences, barriers, turnstiles, locks and other features that prevent unauthorized individuals from entering a physical site, such as a workplace. This is to protect not only physical assets such as computers from being stolen, but also to protect the health and safety of the personnel inside.
+****
 # Types of Physical Access Controls
 
 Many types of physical access control mechanisms can be deployed in an environment to control, monitor and manage access to a facility. These range from deterrents to detection mechanisms. Each area requires unique and focused physical access controls, monitoring and prevention mechanisms. The following sections discuss many such mechanisms that may be used to control access to various areas of a site, including perimeter and internal security.
@@ -42,7 +42,7 @@ Physical security controls for human traffic are often done with technologies su
 >A one way spinning door or barrier that allows only one person at a atime to enter a bulding or pass through an area.
 
 >[!mantraps]- Mantraps
-> An entrance to a buildin or an area that requires people to pass through two doors with only one door opened at a time 
+> An entrance to a building or an area that requires people to pass through two doors with only one door opened at a time 
 
 and remotely or system-controlled door locks. For the system to identify an authorized employee, an access control system needs to have some form of enrollment station used to assign and activate an access control device. Most often, a badge is produced and issued with the employee’s identifiers, with the enrollment station giving the employee specific areas that will be accessible. In high-security environments, enrollment may also include biometric characteristics. In general, an access control system compares an individual’s badge against a verified database. If authenticated, the access control system sends output signals allowing authorized personnel to pass through a gate or a door to a controlled area. The systems are typically integrated with the organization’s logging systems to document access activity (authorized and unauthorized)
 
@@ -77,8 +77,7 @@ Physiological systems measure the characteristics of a person such as a fingerpr
 Behavioral systems measure how a person acts by measuring voiceprints, signature dynamics and keystroke dynamics. As a person types, a keystroke dynamics system measures behavior such as the delay rate (how long a person holds down a key) and transfer rate (how rapidly a person moves between keys).
 
 Biometric systems are considered highly accurate, but they can be expensive to implement and maintain because of the cost of purchasing equipment and registering all users. Users may also be uncomfortable with the use of biometrics, considering them to be an invasion of privacy or presenting a risk of disclosure of medical information (since retina scans can disclose medical conditions). A further drawback is the challenge of sanitization of the devices.
-
-
+****
 # Monitoring
 
 The use of physical access controls and monitoring personnel and equipment entering and leaving as well as auditing/logging all physical events are primary elements in maintaining overall organizational security. 
@@ -122,39 +121,28 @@ Finally, another common type of alarm system is in the form of a panic button. O
 
 ### Security Guards
 Security guards are an effective physical security control. No matter what form of physical access control is used, a security guard or other monitoring system will discourage a person from masquerading as someone else or following closely on the heels of another to gain access. This helps prevent theft and abuse of equipment or information.
-
-
-# Physical Access Controls
+*****
+# Physical Access Controls Knowledge check
 
 Which of the following is NOT a source of biometric data? (D1 L3.2.1)
 
  A. Fingerprint
-
  B. Iris Scan
-
  C. Badges
-
  D. Voice print
-
-Check Answer
 
 Correct answer: C. Badges
 
 Badges are not a source of biometric data. All other options presented are considered unique identifiers that are commonly accepted by biometric authentication systems.
 
-# Users’ Credentials
+# Users’ Credentials Know check
 
 When using physical access control tokens, how are the user’s credentials read so they can be transmitted to a logical access control system? (D3 L3.2.1)
 
  A. Swiped (magnetic stripe)
-
  B. Inserted (smart card or proximity)
-
  C. Placed on or near a reader (proximity)
-
  D. All of the above
-
-Check Answer
 
 Correct answer: D.
 

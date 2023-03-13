@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISC2/Capitolo 2/Module 4 Fine.md",
-                "mode": "preview",
+                "file": "ISC2/Capitolo 4/Module 1.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ISC2/Capitolo 2/Module 4 Fine.md",
+                "file": "ISC2/Capitolo 4/Module 1.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ISC2/Capitolo 2/Module 4 Fine.md",
+                "file": "ISC2/Capitolo 4/Module 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISC2/Capitolo 2/Module 4 Fine.md"
+                "file": "ISC2/Capitolo 4/Module 1.md"
               }
             }
           },
@@ -156,13 +156,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6c305e1a830901fc",
+  "active": "34cd395145f2965c",
   "lastOpenFiles": [
+    "ISC2/Capitolo 4/Module 0.md",
+    "ISC2/Capitolo 5/Module 1.md",
+    "ISC2/Capitolo 3/Module 0.md",
+    "ISC2/Certified-in-Cybersecurity-Exam-Outline-Aug22.pdf",
+    "ISC2/Capitolo 3/Module 4 Final.md",
+    "ISC2/Capitolo 3/Module 3.md",
+    "ISC2/Capitolo 3/Module 2.md",
+    "ISC2/Capitolo 3/Module 1.md",
+    "ISC2/Capitolo 2/Module 4 Fine.md",
     "ISC2/Capitolo 2/Module 3.md",
     "ISC2/Capitolo 2/Module 2.md",
     "ISC2/Capitolo 2/Module 1.md",
     "ISC2/Capitolo 2/Intro.md",
-    "ISC2/Capitolo 2/Module 4 Fine.md",
     "ISC2/Capitolo 1/MODULE 4.md",
     "ISC2/Capitolo 1/MODULE 3.md",
     "ISC2/Capitolo 1/Module 6.md",
@@ -172,11 +180,9 @@
     "ISC2/Capitolo 1/images/2023-03-08 16_24_43-What are Security Controls_.png",
     "ISC2/Capitolo 1/images",
     "ISC2/Capitolo 1/MODULE 2.md",
-    "ISC2/Capitolo 5/Module 1.md",
     "ISC2/Capitolo 5/Module 0 Intro Overview.md",
     "ISC2/Capitolo 4/EDU-CC-70405-ch04_Takeaway.pdf",
     "ISC2/Capitolo 4/images/Service Models.png",
-    "ISC2/Capitolo 4/Intro.md",
     "ISC2/Capitolo 4/Module 1.md",
     "ISC2/Capitolo 1/MODULE 1.md",
     "ISC2/Capitolo 5/images/2023-03-07 13_23_01-Encryption Overview.png",
@@ -190,19 +196,12 @@
     "ISC2/KnowTest.png",
     "control.png",
     "ISC2/PopUp3.md",
-    "ISC2/Certified-in-Cybersecurity-Exam-Outline-Aug22.pdf",
     "Components of the Incident Response Plan.md",
     "ISC2/Capitolo 4/Module 4 final.md",
-    "ISC2/Capitolo 3/Module 4 Final.md",
     "ISC2/Capitolo 4/Module 3.md",
     "ISC2/Capitolo 4/Module 2.md",
     "ISC2/Capitolo 4/Non confermato 478703.crdownload",
-    "ISC2/Capitolo 1/Chapter 1 Security Principles.md",
-    "ISC2/Capitolo 3/Module 3.md",
     "ISC2/Capitolo 4/images",
-    "Non confermato 631629.crdownload",
-    "ISC2/Capitolo 3/Module 2.md",
-    "ISC2/Capitolo 3/Module 1.md",
-    "ISC2/Capitolo 3/Mandatory Access Control (MAC).md"
+    "Non confermato 631629.crdownload"
   ]
 }

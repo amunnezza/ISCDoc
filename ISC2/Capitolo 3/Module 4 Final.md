@@ -138,275 +138,119 @@ Your quiz has been submitted successfully.
 Which of the following is a subject? (D 3, L3.1.1)
 
 Question options:
-
-A) 
-
-A file
-
-B) 
-
-A fence
-
-C) 
-
-A filename
-
-D) 
-
-A user
-
-Hide question 1 feedback
+A) A file
+B) A fence
+C) A filename
+D) A user
 
 Correct. A user is a subject; something trying to get access to objects.
 
 **Question 2**
-
 1 / 1 point
 
 Lia works in the security office. During research, Lia learns that a configuration change could better protect the organization's IT environment. Lia makes a proposal for this change, but the change cannot be implemented until it is approved, tested, and then cleared for deployment by the Change Control Board. This is an example of __________. (D3, L3.1.1)
 
 Question options:
-
-A) 
-
-Defense in depth
-
-B) 
-
-Holistic security
-
-C) 
-
-Threat intelligence
-
-D) 
-
-Segregation of duties
-
-Hide question 2 feedback
+A) Defense in depth
+B) Holistic security
+C) Threat intelligence
+D) Segregation of duties
 
 Correct. Lia can make a recommendation for a change to the IT environment, but cannot enact the change without participation from another entity in the organization.  
 
 **Question 3**
-
 1 / 1 point
-
 Duncan and Mira both work in the data center at Triffid, Inc. There is a policy in place that requires both of them to be present in the data center at the same time; if one of them has to leave for any reason, the other has to step out, too, until they can both re-enter. This is called ________. (D 3, L3.1.1)
-
 Question options:
 
-A) 
-
-Blockade
-
-B) 
-
-Multifactor authentication
-
-C) 
-
-Two-person integrity
-
-D) 
-
-Defense in depth
-
-Hide question 3 feedback
+A) Blockade
+B) Multifactor authentication
+C) Two-person integrity
+D) Defense in depth
 
 Correct. This policy ensures a single person is not alone with extremely sensitive assets, and reduces the potential for inappropriate activity. 
 
 **Question 4**
-
 1 / 1 point
 
 Clyde is the security analyst tasked with finding an appropriate physical control to reduce the possibility that unbadged people will follow badged employees through the entrance of the organization's facility. Which of the following can address this risk? (D3, L3.2.1)  
 
 Question options:
-
-A) 
-
-Fences
-
-B) 
-
-Dogs
-
-C) 
-
-Bollards
-
-D) 
-
-Turnstiles
-
-Hide question 4 feedback
+A) Fences
+B) Dogs
+C) Bollards
+D) Turnstiles
 
 Correct. Turnstiles reduce the possibility of unauthorized personnel following behind authorized personnel, known as "tailgating" or "piggybacking." 
 
 **Question 5**
-
 0 / 1 point
 
 Sinka is considering a physical deterrent control to dissuade unauthorized people from entering the organization's property. Which of the following would serve this purpose? (D3, L3.2.1)
-
 Question options:
 
-A) 
-
-A wall
-
-B) 
-
-Razor tape
-
-C) 
-
-A sign
-
-D) 
-
-A hidden camera
-
-Hide question 5 feedback
+A) A wall
+B) Razor tape
+C) A sign
+D) A hidden camera
 
 Incorrect. There is not enough information to make this determination. If the sign says,     "Private-- stay out," it won't serve as an effective deterrent. If the sign says, "Danger--     attack dogs on property," that is an effective deterrent.
 
 **Question 6**
-
 1 / 1 point
-
 Which of these combinations of physical security controls share a single point of failure? (D3, L3.2.1)
-
 Question options:
-
-A) 
-
-Guards and fences
-
-B) 
-
-Badge readers and walls
-
-C) 
-
-Dogs and bollards
-
-D) 
-
-High-illumination lighting and cameras
-
-Hide question 6 feedback
+A) Guards and fences
+B) Badge readers and walls
+C) Dogs and bollards
+D) High-illumination lighting and cameras
 
 Correct. Both lighting and cameras require power; a power failure will disable both the cameras and the lights.  
 
 **Question 7**
-
 1 / 1 point
-
 Lakshmi presents a userid and a password to a system in order to log on. Which of the following characteristics must the _**userid**_  have? (D3, L3.3.1) 
-
 Question options:
 
-A) 
-
-Confidential
-
-B) 
-
-Complex
-
-C) 
-
-Unique
-
-D) 
-
-Long
-
-Hide question 7 feedback
+A) Confidential
+B) Complex
+C) Unique
+D) Long
 
 Correct. Identity assertions must be unique, to differentiate between various users.
 
 **Question 8**
-
 1 / 1 point
-
 Lakshmi presents a userid and a password to a system in order to log on. Which of the following characteristics must the _**password**_ have? (D3, L3.3.1) 
 
 Question options:
-
-A) 
-
-Confidential
-
-B) 
-
-Unique
-
-C) 
-
-Mathematical
-
-D) 
-
-Shared
-
-Hide question 8 feedback
+A) Confidential
+B) Unique
+C) Mathematical
+D) Shared
 
 Correct. Passwords, like all authenticating elements, must be kept secret, and known only to the user.
 
 **Question 9**
-
 1 / 1 point
-
 Derrick logs on to a system in order to read a file. In this example, Derrick is the ______. (D3, L3.3.1)
-
 Question options:
 
-A) 
-
-Subject
-
-B) 
-
-Object
-
-C) 
-
-Process
-
-D) 
-
-Predicate
-
-Hide question 9 feedback
+A) Subject
+B) Object
+C) Process
+D) Predicate
 
 Correct. Subjects are entities that access objects.  
 
 **Question 10**
-
 1 / 1 point
-
 Which is a physical control that prevents "piggybacking" or "tailgating"; that is, an unauthorized person following an authorized person into a controlled area? (D3, L3.2.1)
 
 Question options:
-
-A) 
-
-Bollard
-
-B) 
-
-Turnstile
-
-C) 
-
-Fence
-
-D) 
-
-Wall
-
-Hide question 10 feedback
+A) Bollard
+B) Turnstile
+C) Fence
+D) Wall
 
 Correct. A turnstile typically uses a revolving mechanism which only allows one person to be admitted at a time, reducing the possibility of an unauthorized person following an authorized person into a controlled area.

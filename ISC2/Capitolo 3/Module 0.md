@@ -9,13 +9,9 @@ Let’s take a more detailed look at the types of access control that every in
 After completing this chapter, the participant will be able to: 
 
 L3    Select access controls that are appropriate in a given scenario.
-
 L3.1.1 Relate access control concepts and processes to given scenarios.
-
 L3.2.1 Compare various physical access controls.
-
 L3.3.1 Describe logical access controls.
-
 L3.4.1 Practice the terminology of access controls and review concepts of access controls.
 
 # Chapter at a Glance
@@ -29,10 +25,3 @@ While working through Chapter 3, Access Controls Concepts, make sure to: 
 -   View the Chapter 3 Summary
 -   Take the Chapter 3 Quiz
 -   View the Terms and Definitions
-- # Module 1: Understand Access Control Concepts
-
-Domain D3.1, D3.1.3, D3.1.5, D3.2, D3.2.1, D3.2.2, D3.2.5
-
-#### Module Objective
-
--   L3.1.1 Relate access control concepts and processes given scenarios.
