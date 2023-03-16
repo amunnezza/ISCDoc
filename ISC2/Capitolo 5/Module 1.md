@@ -15,8 +15,7 @@ video UnderstandDataSecurity.mkv
 
 transcripts
 Manny: It's hard to imagine the sheer volume of data that's flying around the world right now. Tasha: Right, and information security, as a process and discipline, provides a structure for protecting the value of data. As an organization creates, stores, shares, uses, modifies, archives, and finally destroys that data. Manny: Writing information down on paper, a whiteboard, or a flash drive, or putting it in a file on Cloud creates data that is a tangible asset. The organization has to protect both the ideas and the data. Tasha: Yes, and all the copies of it in papers, books, conversation logs, computer files, database records and the network packets which help move that information from one location or user to another. Manny: Wow, that's an important job. Tasha: It sure is.
-
-
+****
 # Data Handling
 
 Data itself goes through its own life cycle as users create, use, share and modify it. Many different models of the life of a data item can be found, but they all have some basic operational steps in common. The data security life cycle model is useful because it can align easily with the different roles that people and organizations perform during the evolution of data from creation to destruction (or disposal). It also helps put the different data states of in use, at rest and in motion, into context. Let’s take a closer look. 
@@ -41,14 +40,13 @@ Archiving the data when it is temporarily not needed.
 
 ##### Destroy
 Destroying the data when it is no longer needed.
-
-
+****
 # Data Handling Deeper Dive video
  video  DataHandlingDeeper.mkv
 
 [Download Transcript](https://learn.isc2.org/content/enforced/9541-CC-SPT-GLOBAL-1ED-1M/build/chapter_05/transcripts/Data%20Handling%20Deeper%20Dive.pdf?_&d2lSessionVal=cvTrTCqN5CaEQU1Bv8rdyg8eF&ou=9541)
 Narrator: Data handling is extremely important. As soon as we receive the assets, the data we need to protect, we need to make sure we know the best practices for handling this data. First, we need to recognize which assets we need to protect. This is based on the value of the data according to the owner of that data. Based on that, we see what kind of risk we are facing with respect to the likelihood that this information could be compromised, destroyed or changed by any means, and what vulnerabilities exist that we need to account for. This is the life cycle of data handling, from create, to store, to use, to share, to archive and finally to destroy. And at any point there are different risks to the data and different practices for handling it. Some of these procedures are mandated by government standards. For example, in the US, the Occupational Safety and Health Administration (OSHA) is the federal government agency that protects the well-being of workers. Under the rules of the Healthcare Insurance Portability and Accountability Act (HIPAA), medical records need to be kept for 10 years, but under OSHA, if we have a medical record of an on-the-job injury, that record needs to be maintained for over 30 years, even after the last day of work in that particular organization. That’s a regulatory requirement, and if you don’t know that or don’t abide by it, you can find yourself in trouble as the result of an audit. So you can see that we have to be very cautious when deciding how to handle data, as there may be multiple regulations that apply to a single piece of data. Also in the US there are also specific guidelines related to the Payment Card Industry Data Security Standards (PCI DSS) requirements regarding credit card information and how to maintain that information securely. In the European Union, the GDPR also has specific requirements regarding the handling of financial data. In order to protect the data properly, you need to know all the relevant requirements for the type of data being protected in the various geographic areas. Many countries and other jurisdictions have regulations that require certain data protections throughout every stage of the data’s life cycle. These govern how the data is acquired, processed, stored, and ultimately destroyed. And when looking at the life cycle of the data, we need to keep a watchful eye and protect the information at every stage, even if it’s ready to be legally destroyed at the end of the life cycle. In some cases, multiple jurisdictions may impose rules affecting the data we are charged with protecting. In these instances, we need to be aware of any and all regulations that affect us. Some data handling practices include classification and labeling, where you determine the sensitivity of the data, what is available to everyone and what needs to be restricted, and label the information accordingly so that your access controls will allow the correct level of access. Retention is how long we store the information and where, based on the requirements of our organization and perhaps regulatory agencies as well. And then there needs to be defensible destruction, meaning that we have the regulatory mandate backing up our decision to destroy the data. Destruction can be physical, of hard drives or computer chips, or destruction of digital records, which can be done under a number of methodologies. We need to make sure we understand the secure destruction of the data, because often we think we can just empty the virtual trash can to delete the data. But when we do that, old emails and other data may never be erased. To completely erase the data on physical media, you need to use some technical equipment for degaussing, such as powerful magnets to erase the data stored on tape and disk media such as computer and laptop hard drives, diskettes, reels, cassettes and cartridge tapes. However, an individual with sophisticated equipment could potentially still retrieve that information, at least partially. So we must make sure we understand what recovery tools are available, because if you are subject to regulatory compliance, you have to follow through with specific protocols and processes to destroy that information as required so that it can no longer be accessed in any way.
-
+****
 
 # Data Handling Practices
 
@@ -97,7 +95,7 @@ Data that might be left on media after deleting is known as **remanence** (_def
 -   Physical destruction of the device or system is the ultimate remedy to data remanence. Magnetic or optical disks and some flash drive technologies may require being mechanically shredded, chopped or broken up, etched in acid or burned; their remains may be buried in protected landfills, in some cases.
 
 In many routine operational environments, security considerations may accept that clearing a system is sufficient. But when systems elements are to be removed and replaced, either as part of maintenance upgrades or for disposal, purging or destruction may be required to protect sensitive information from being compromised by an attacker.
-
+****
 # Logging and Monitoring Security Events
 
 Logging is the primary form of instrumentation that attempts to capture signals generated by events. Events are any actions that take place within the systems environment and cause measurable or observable change in one or more elements or resources within the system. Logging imposes a computational cost but is invaluable when determining accountability. Proper design of logging environments and regular log reviews remain best practices regardless of the type of computer system. 
@@ -130,7 +128,7 @@ Controls are implemented to protect against unauthorized changes to log informat
 ## Raw Log (Also shown at the bottom of event detail)
 
 ![Screenshot of an incident on the log](https://learn.isc2.org/content/enforced/9541-CC-SPT-GLOBAL-1ED-1M/build/chapter_05/assets/img/EDU-ELCC-70450-incident_on_log-v01.png?_&d2lSessionVal=cvTrTCqN5CaEQU1Bv8rdyg8eF&ou=9541 "Screenshot of an incident on the log")
-
+****
 # Data Security Event Example
 
 Here is a data security event example. It’s a raw log, and it is one way to see if someone tried to break into a secure file and hijack the server. Of course, there are other systems now that are a little more user-friendly. But security engineers get very familiar with some of these codes and can figure out exactly who was trying to log it, was it a secure port or a questionable port that they were trying to use to penetrate our site. 
@@ -138,7 +136,7 @@ Here is a data security event example. It’s a raw log, and it is one way to se
 Information security is not something that you just plug in as needed. You can have some patching on a system that already exists, such as updates, but if you don’t have a secure system, you can’t just plug in something to protect it. From the very beginning, we need to plan for that security, even before the data is introduced into the network. 
 
 ![Image of a raw data log](https://learn.isc2.org/content/enforced/9541-CC-SPT-GLOBAL-1ED-1M/build/chapter_05/assets/img/EDU-CCSP-71155-image-raw_log-v01.png?_&d2lSessionVal=cvTrTCqN5CaEQU1Bv8rdyg8eF&ou=9541 "Image of a raw data log")
-
+****
 # Event Logging Best Practices
 
 Different tools are used depending on whether the risk from the attack is from traffic coming into or leaving the infrastructure. **Ingress monitorin**(_def:Monitoring of incoming network traffic._) refers to surveillance and assessment of all inbound communications traffic and access attempts. Devices and tools that offer logging and alerting opportunities for ingress monitoring include: 
@@ -157,25 +155,20 @@ Different tools are used depending on whether the risk from the attack is from t
 -   File Transfer Protocol (FTP)
 -   Posting to web pages/websites
 -   Applications/application programming interfaces (APIs)
-
-# Logging
+****
+# Logging Knowledge check
 
 Which of the following does not normally influence an organization’s retention policy for logs? (D5, L5.1.3) 
 
  A. Laws
-
  B. Audits
-
  C. Corporate governance
-
  D. Regulations
-
-Check Answer
 
 Correct answer: B. Audits
 
 Audits are a way to measure compliance with policy, but do not normally influence the retention policy itself. Organizations must maintain adherence to retention policy for logs as prescribed by law, regulations and corporate governance.
-
+****
 
 # Encryption Overview
 
@@ -212,8 +205,7 @@ The central characteristic of a symmetric algorithm is that it uses the same key
 
 process is just a mirror image of the encryption process. 
 This image displays how symmetric algorithms work.
-![[2023-03-07 13_07_12-Encryption Overview.png]]
-
+![[2023-03-14 07_35_22-.png]]
 The same key is used for both the encryption and decryption processes. This means that the two parties communicating need to share knowledge of the same key. This type of algorithm protects data, as a person who does not have the correct key would not be able to read the encrypted message. Because the key is shared, however, this can lead to several other challenges:
 
 -   If two parties suspect a specific communication path between them is compromised, they obviously can't share key material along that path. Someone who has compromised communications between the parties would also intercept the key.
@@ -235,7 +227,7 @@ Other names for symmetric algorithms, which you may encounter, include:
 -   Secret key
 -   Session key
 
-An example of [symmetric encryption](https://learn.isc2.org/content/enforced/9541-CC-SPT-GLOBAL-1ED-1M/build/chapter_05/module_01/ch05_m01-Encryption_Overview.html?d2lSessionVal=cvTrTCqN5CaEQU1Bv8rdyg8eF&ou=9541&d2l_body_type=3#) is a substitution cipher, which involves the simple process of substituting letters for other letters, or more appropriately, substituting bits for other bits, based upon a cryptovariable. These ciphers involve replacing each letter of the plaintext with another that may be further down the alphabet.
+An example of **symmetric encryption**(_def An algorithm that uses the same key in both the encryption and the decryption processes._) is a substitution cipher, which involves the simple process of substituting letters for other letters, or more appropriately, substituting bits for other bits, based upon a cryptovariable. These ciphers involve replacing each letter of the plaintext with another that may be further down the alphabet.
 
 ##### Asymmetric Encryption
 
@@ -278,29 +270,35 @@ To be useful and secure, a cryptographic hash function must demonstrate five mai
 -   Unique: It is computationally infeasible to find two or more different, sensible messages that hash to the same value.
 -   Deterministic: The same input will always generate the same hash, when using the same hashing algorithm.
 Cryptographic hash functions have many applications in information security, including digital signatures, message authentication codes and other forms of authentication. They can also be used for fingerprinting, to detect duplicate data or uniquely identify files, and as **checksums** (_A digit representing the sum of the correct digits in a piece of stored or transmitted digital data, against which later comparisons can be made to detect errors in the data._) to detect accidental data corruption. The operation of a hashing algorithm is demonstrated in this image.
-![[2023-03-07 13_23_01-Encryption Overview.png]]
+![[2023-03-14 07_40_05-.png]]
 This is an example of a simple hashing function. The originator wants to send a message to the receiver and ensure that the message is not altered by noise or lost packets as it is transmitted. The originator runs the message through a hashing algorithm that generates a hash, or a digest of the message. The digest is appended to the message and sent together with the message to the recipient. Once the message is delivered, the receiver will generate their own digest of the received message (using the same hashing algorithm). The digest of the received message is compared with the digest sent by the originator. If the digests are the same, the received message is the same as the sent message.
 
 The problem with a simple hash function like this is that it does not protect against a malicious attacker that would be able to change both the message and the hash/digest by intercepting it in transit. The general idea of a cryptographic hash function can be summarized with the following formula:
 
- 
-
-variable data input + hashing algorithm
-
-= fixed bit size data output (the digest)
-
+ **variable data input + hashing algorithm = fixed bit size data output (the digest)**
 
 even the slightest change in the input message results in a completely different hash value.
-
 Hash functions are very sensitive to any changes in the message. Because the size of the hash digest does not vary according to the size of the message, a person cannot tell the size of the message based on the digest.
 
+## Hashing Deep Dive
+
+Hashing puts data through a hash function or algorithm to create an alphanumeric set of figures, or a digest, that means nothing to people who might view it. No matter how long the input is, the hash digest will be the same number of characters. Any minor change in the input, a misspelling, or upper case or lower case, will create a completely different hash digest. So you can use the hash digest to confirm that the input exactly matches what is expected or required, for instance, a password.
+
+For example, we pay our rent through automatic withdrawal, and it’s $5,000 a month. Perhaps someone at the bank or at the rental office thinks they can just change it to $50,000 and keep the extra money. They think no one will notice if they just add another zero to the number. However, that change will completely change the digest. Since the digest is different, it will indicate that someone corrupted the information by changing the value of the automatic withdrawal, and it will not go through. Hashing is an extra layer of defense.
+
+Before we go live with a software product provided by a third party, for instance, we have to make sure no one has changed anything since it was tested by you and the programmer. They will usually send you the digest of their code and you compare that to the original. This is also known as a Checksum. If you see a discrepancy, that means something has changed. Then the security coders will compare the original one and the new one, and sometimes it’s very tedious, but they have software that can do it for them. If it’s something a little more intricate, they may need to go line by line and find out where the bugs are or if some lines need to be fixed. Often these problems are not intentional; they sneak in when you are making final adjustments to the software.
+
+An incident occurred at the University of Florida many years ago, where a very reputable software source, Windows 2000 or Millennium, was provided to 50,000 students via CD-ROMs, and the copies were compromised. The problems were detected when the digests did not match on a distribution file.
+
+****
 # How Passwords Work video
 
  HowPasswordsWork.mkv
 
 
-[Download Transcript](https://learn.isc2.org/content/enforced/9541-CC-SPT-GLOBAL-1ED-1M/build/chapter_05/transcripts/How%20Passwords%20Work.pdf?_&d2lSessionVal=cvTrTCqN5CaEQU1Bv8rdyg8eF&ou=9541)
+[Download Transcript]()
 Narrator: Often your password will be stored as a fixed hash value or digest, so that the system can tell if your password matches without the password itself ever being visible. A more secure password with alphanumeric and special characters will generate a different type of hash digest. However, this system of password management is already becoming obsolete. Often, for security purposes, you will be asked to generate a new password with a minimum number of characters, and the software behind it will recognize the hash function and tell you if the password is sufficiently secure to be used, or it will prompt you to create a better password. Attackers can use password hashes to “guess” your password offline. If an attacker can copy the password file, which is usually hashed, from a compromised workstation or server, and they know the algorithm that is used to hash the password, they can use a computer to try random sequences of letters and number combinations to try to match the known password hash.
+FINE MODULO 1 CAPITOLO 5
 
 
 
