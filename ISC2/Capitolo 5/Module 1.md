@@ -52,9 +52,8 @@ Narrator: Data handling is extremely important. As soon as we receive the assets
 
 Data itself has value and must be handled appropriately.  In this section, we will explore the basics of classifying and labeling data to ensure it is treated and controlled in a manner consistent with the sensitivity of the data. In addition, we will complete the data life cycle by documenting retention requirements and ensuring data that is no longer in use is destroyed. 
 
-## ![image of file folder with document and magnifying glass](https://learn.isc2.org/content/enforced/9541-CC-SPT-GLOBAL-1ED-1M/build/chapter_05/assets/img/EDU-ELCC-70435-Classification-techart-v02.svg?_&d2lSessionVal=cvTrTCqN5CaEQU1Bv8rdyg8eF&ou=9541 "image of file folder with document and magnifying glass") Classification
-
-Businesses recognize that information has value and others might steal their advantage if the information is not kept confidential, so they classify it. These classifications dictate rules and restrictions about how that information can be used, stored or shared with others. All of this is done to keep the temporary value and importance of that information from leaking away. Classification of data, which asks the question “Is it secret?” determines the labeling, handling and use of all data. 
+## Classification
+recognize that information has value and others might steal their advantage if the information is not kept confidential, so they classify it. These classifications dictate rules and restrictions about how that information can be used, stored or shared with others. All of this is done to keep the temporary value and importance of that information from leaking away. Classification of data, which asks the question “Is it secret?” determines the labeling, handling and use of all data. 
 
 Before any labels can be attached to sets of data that indicate its sensitivity or handling requirements, the potential impact or loss to the organization needs to be assessed. This is our first definition: Classification (DEF : _Classification identifies the degree of harm to the organization, its stakeholders or others that might result if an information asset is divulged to an unauthorized person, process or organization. In short, classification is focused first and foremost on maintaining the confidentiality of the data, based on the data sensitivity._) is the process of recognizing the organizational impacts if the information suffers any security compromises related to its characteristics of confidentiality, integrity and availability. Information is then labeled and handled accordingly. 
 
@@ -62,7 +61,7 @@ Classifications are derived from laws, regulations, contract-specified standards
 
 The immediate benefit of classification is that it can lead to more efficient design and implementation of security processes, if we can treat the protection needs for all similarly classified information with the same controls strategy.
 
-## ![image of file folder with label](https://learn.isc2.org/content/enforced/9541-CC-SPT-GLOBAL-1ED-1M/build/chapter_05/assets/img/EDU-ELCC-70420-Labeling-techart-v02.svg?_&d2lSessionVal=cvTrTCqN5CaEQU1Bv8rdyg8eF&ou=9541 "image of file folder with label") Labeling
+## Labeling
 
 Security labels are part of implementing controls to protect classified information. It is reasonable to want a simple way of assigning a level of sensitivity to a data asset, such that the higher the level, the greater the presumed harm to the organization, and thus the greater security protection the data asset requires. This spectrum of needs is useful, but it should not be taken to mean that clear and precise boundaries exist between the use of “low sensitivity” and “moderate sensitivity” labeling, for example. 
 
@@ -76,7 +75,12 @@ Unless otherwise mandated, organizations are free to create classification syste
 -   Unrestricted public data: As this data is already published, no harm can come from further dissemination or disclosure.
 ## Retention
 
-Information and data should be kept only for as long as it is beneficial, no more and no less. For various types of data, certain industry standards, laws and regulations define retention periods. When such external requirements are not set, it is an organization’s responsibility to define and implement its own data retention policy. Data retention policies are applicable both for hard copies and for electronic data, and no data should be kept beyond its required or useful life. Security professionals should ensure that data destruction is being performed when an asset has reached its retention limit. For the security professional to succeed in this assignment, an accurate inventory must be maintained, including the asset location, retention period requirement, and destruction requirements. Organizations should conduct a periodic review of retained [records](https://learn.isc2.org/content/enforced/9541-CC-SPT-GLOBAL-1ED-1M/build/chapter_05/module_01/ch05_m01-Data_Handling_Practices.html?d2lSessionVal=cvTrTCqN5CaEQU1Bv8rdyg8eF&ou=9541&d2l_body_type=3#) in order to reduce the volume of information stored and to ensure that only necessary information is preserved. 
+Information and data should be kept only for as long as it is beneficial, no more and no less. For various types of data, certain industry standards, laws and regulations define retention periods. When such external requirements are not set, it is an organization’s responsibility to define and implement its own data retention policy. Data retention policies are applicable both for hard copies and for electronic data, and no data should be kept beyond its required or useful life. Security professionals should ensure that data destruction is being performed when an asset has reached its retention limit. For the security professional to succeed in this assignment, an accurate inventory must be maintained, including the asset location, retention period requirement, and destruction requirements. Organizations should conduct a periodic review of retained 
+>[!records]+
+> The recordings (automated and/or manual) of evidence of activities performed or results achieved (e.g., forms, reports, test results), which serve as a basis for verifying that the organization and the information system are performing as intended. Also used to refer to units of related data fields (i.e., groups of data fields that can be accessed by a program and that contain the complete set of information on particular items). NIST SP 800-53 Rev. 4
+>
+
+ in order to reduce the volume of information stored and to ensure that only necessary information is preserved. 
 
 **Records retention**( _Def:A practice based on the records life cycle, according to which records are retained as long as necessary, and then are destroyed after the appropriate time interval has elapsed_.) policies indicate how long an organization is required to maintain information and assets. Policies should guarantee that: 
 
@@ -173,7 +177,7 @@ Audits are a way to measure compliance with policy, but do not normally influenc
 # Encryption Overview
 
 Almost every action we take in our modern digital world involves **cryptography**(_The study or applications of methods to secure or protect the meaning and content of messages, files, or other information, usually by disguise, obscuration, or other transformations of that content and meaning._). 
->[!Encryption]- 
+>[!Encryption]+ 
 >The process and act of converting the message from its plaintext to ciphertext. Sometimes it is also referred to as enciphering. The two terms are sometimes used interchangeably in literature and have similar meanings.
 
 protects our personal and business transactions; digitally signed software updates verify their creator’s or supplier’s claim to authenticity. Digitally signed contracts, binding on all parties, are routinely exchanged via email without fear of being repudiated later by the sender. 
@@ -229,7 +233,7 @@ Other names for symmetric algorithms, which you may encounter, include:
 
 An example of **symmetric encryption**(_def An algorithm that uses the same key in both the encryption and the decryption processes._) is a substitution cipher, which involves the simple process of substituting letters for other letters, or more appropriately, substituting bits for other bits, based upon a cryptovariable. These ciphers involve replacing each letter of the plaintext with another that may be further down the alphabet.
 
-##### Asymmetric Encryption
+## Asymmetric Encryption
 
 **Asymmetric encryption** (_def:An algorithm that uses one key to encrypt and a different key to decrypt the input plaintext._) uses one key to encrypt and a different key to decrypt the input plaintext. This is in stark contrast to symmetric encryption, which uses the same key to encrypt and decrypt. For most security professionals, the math of asymmetric encryption can be left to the **cryptanalysts** (_def: One who performs cryptanalysis which is the study of mathematical techniques for attempting to defeat cryptographic techniques and/or information systems security. This includes the process of looking for errors or weaknesses in the implementation of an algorithm or of the algorithm itself._) and cryptographers to know.
 
@@ -298,6 +302,7 @@ An incident occurred at the University of Florida many years ago, where a very r
 
 [Download Transcript]()
 Narrator: Often your password will be stored as a fixed hash value or digest, so that the system can tell if your password matches without the password itself ever being visible. A more secure password with alphanumeric and special characters will generate a different type of hash digest. However, this system of password management is already becoming obsolete. Often, for security purposes, you will be asked to generate a new password with a minimum number of characters, and the software behind it will recognize the hash function and tell you if the password is sufficiently secure to be used, or it will prompt you to create a better password. Attackers can use password hashes to “guess” your password offline. If an attacker can copy the password file, which is usually hashed, from a compromised workstation or server, and they know the algorithm that is used to hash the password, they can use a computer to try random sequences of letters and number combinations to try to match the known password hash.
+
 FINE MODULO 1 CAPITOLO 5
 
 
