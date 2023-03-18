@@ -187,7 +187,7 @@ While there is no single step you can take to protect against all threats, there
 ## Antivirus
 
 The use of antivirus products is strongly encouraged as a security best practice and is a requirement for compliance with the 
->[!Payment Card Industry Data Security Standard (PCI DSS)]-
+>[!Payment Card Industry Data Security Standard (PCI DSS)]+
 >Security standards that apply to mercchants and service providers who process credit or debit cart transactions.>
 
 There are several antivirus products available, and many can be deployed as part of an enterprise solution that integrates with several other security products.
@@ -207,7 +207,7 @@ Regular vulnerability and port scans are a good way to evaluate the effectivenes
 In building construction or vehicle design, a firewall is a specially built physical barrier that prevents the spread of fire from one area of the structure to another or from one compartment of a vehicle to another. Early computer security engineers borrowed that name for the devices and services that isolate network segments from each other, as a security measure. As a result, firewalling refers to the process of designing, using or operating different processes in ways that isolate high-risk activities from lower-risk ones.
 
 Firewalls enforce policies by filtering network traffic based on a set of rules. While a firewall should always be placed at internet gateways, other internal network considerations and conditions determine where a firewall would be employed, such as network zoning or segregation of different levels of sensitivity. Firewalls have rapidly evolved over time to provide enhanced security capabilities. This growth in capabilities can be seen in Figure 5.37, which contrasts an oversimplified view of traditional and next-generation firewalls. It integrates a variety of threat management capabilities into a single framework, including proxy services, intrusion prevention services (IPS) and tight integration with the identity and access management (IAM) environment to ensure only authorized users are permitted to pass traffic across the infrastructure. While firewalls can manage traffic at Layers 2 (MAC addresses), 3 (IP ranges) and 7 
->[!application programming interface (API)]-
+>[!application programming interface (API)]+
 >A set of routines , standards, protocols and tools for boukding software applications to access a web based software application web tool.
 
 

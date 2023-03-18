@@ -2,21 +2,13 @@
 
 # Chapter 5: Security Operations
 
-## ![An image of a gear.](https://learn.isc2.org/content/enforced/9541-CC-SPT-GLOBAL-1ED-1M/build/chapter_05/assets/img/EDU-ELCC-70840-ch05_ppt_cover.jpeg "An image of a gear.")
 
 ## Chapter 5 Agenda
 
 **Module 1:** Understand  Data Security  (D5.1)
-
 **Module 2:** Understand  System Hardening (D5.2)
-
 **Module 3:** Understand  Best Practice Security Policies (D5.3)
-
 **Module 4:** Understand Security Awareness Training (D5.3, D5.4)
-
-
-
-
 
 # Chapter 5 Overview
 
@@ -31,17 +23,11 @@ After completing this chapter, the participant will be able to: 
 L5      Explain concepts of security operations.
 
 	L5.1.1 Discuss data handling best practices.
-
 	L5.1.2 Identify important concepts of logging and monitoring.
-
 	L5.1.3 Summarize the different types of encryption and their common uses.
-
 	L5.2.1 Describe the concepts of configuration management.
-
 	L5.3.1 Explain the application of common security policies.
-
 	L5.4.1 Discuss the importance of security awareness training.
-
 	L5.5.1 Practice the terminology of and review the concepts of network operations.
 # Chapter at a Glance
 

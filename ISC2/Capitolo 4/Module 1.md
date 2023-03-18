@@ -17,11 +17,11 @@ _Tasha_: That's right, and cyber threats and attacks are getting more sophistica
 A network is simply two or more computers linked together to share data, information or resources.
 
 To properly establish secure data communications, it is important to explore all of the technologies involved in computer communications. From [hardware](https://learn.isc2.org/content/enforced/9541-CC-SPT-GLOBAL-1ED-1M/build/chapter_04/module_01/ch04_m01-What_is_Networking.html?d2lSessionVal=Mi4hLS4lYYLy6kUwwSCV3JUf6&ou=9541&d2l_body_type=3#) and [software](https://learn.isc2.org/content/enforced/9541-CC-SPT-GLOBAL-1ED-1M/build/chapter_04/module_01/ch04_m01-What_is_Networking.html?d2lSessionVal=Mi4hLS4lYYLy6kUwwSCV3JUf6&ou=9541&d2l_body_type=3#) to 
->[!protocols]- 
+>[!protocols]+ 
 > A set of rules (formats and procedures) to implement and control some type of association (that is communication) between systems. NIST SP 800-82 REV.2
 
 and 
-> [!encryption]- 
+> [!encryption]+
 > The process and act of conveting the message from its plaintext to ciphertext. Sometimes it is also referred to ad enciphering. The two terms are cometimes used interchangeably in iterature and have similar meaning. 
 
  and beyond, there are many details, standards and procedures to be familiar with.
@@ -44,11 +44,11 @@ Hubs are used to connect multiple devices in a network. They’re less likely to
 Rather than using a hub, you might consider using a switch, or what is also known as an intelligent hub. Switches are wired devices that know the addresses of the devices connected to them and route traffic to that port/device rather than retransmitting to all devices.
 
 Offering greater efficiency for traffic delivery and improving the overall throughput of data, switches are smarter than hubs, but not as smart as routers. Switches can also create separate 
->[!broadcast]-
+>[!broadcast]+
 >Broadcast transmission is a one-to-many (one to everyone) form of sending internet traffic 
 
 domains when used to create 
->[!VLANs]- 
+>[!VLANs]+
 >A virtual local area network is a logical group of devices that appear to be on the same LAN despite their geographical distribution. 
 
  which will be discussed later.
@@ -68,20 +68,19 @@ Endpoints are the ends of a network communication link. One end is often at a se
 
 ## Other Networking Terms
 
-### Ethernet![image of an ethernet cable](https://learn.isc2.org/content/enforced/9541-CC-SPT-GLOBAL-1ED-1M/build/chapter_04/assets/EDU-ELCC-70260h-ethernet-icon-v01.svg?_&d2lSessionVal=yBjfRYCKPbzWFncFn40KvvFLX&ou=9541 "image of an ethernet cable")
+### Ethernet
 
 Ethernet (IEEE 802.3) is a standard that defines wired connections of networked devices. This standard defines the way data is formatted over the wire to ensure disparate devices can communicate over the same cables.
 
 ### Device Address
 
--   ![image of MAC address on a device](https://learn.isc2.org/content/enforced/9541-CC-SPT-GLOBAL-1ED-1M/build/chapter_04/assets/EDU-ELCC-70260e-mac_address-icon-v01.svg?_&d2lSessionVal=yBjfRYCKPbzWFncFn40KvvFLX&ou=9541 "image of MAC address on a device")**Media Access Control (MAC) Address** - Every network device is assigned a Media Access Control (MAC) address. An example is 00-13-02-1F-58-F5. The first 3 [bytes](https://learn.isc2.org/content/enforced/9541-CC-SPT-GLOBAL-1ED-1M/build/chapter_04/module_01/ch04_m01-What_is_Networking.html?d2lSessionVal=yBjfRYCKPbzWFncFn40KvvFLX&ou=9541&d2l_body_type=3#) (24 bits) of the address denote the vendor or manufacturer of the physical network interface. No two devices can have the same MAC address in the same local network; otherwise an address conflict occurs.
--   ![image representing the IP address of a laptop](https://learn.isc2.org/content/enforced/9541-CC-SPT-GLOBAL-1ED-1M/build/chapter_04/assets/EDU-ELCC-70260i-ip_address-icon-v01.svg?_&d2lSessionVal=yBjfRYCKPbzWFncFn40KvvFLX&ou=9541 "image representing the IP address of a laptop")**Internet Protocol (IP) Address** - While MAC addresses are generally assigned in the firmware of the interface, IP hosts associate that address with a unique logical address. This logical IP address represents the network interface within the network and can be useful to maintain communications when a physical device is swapped with new hardware. Examples are 192.168.1.1 and 2001:db8::ffff:0:1.
+-   **Media Access Control (MAC) Address** - Every network device is assigned a Media Access Control (MAC) address. An example is 00-13-02-1F-58-F5. The first 3 [bytes](https://learn.isc2.org/content/enforced/9541-CC-SPT-GLOBAL-1ED-1M/build/chapter_04/module_01/ch04_m01-What_is_Networking.html?d2lSessionVal=yBjfRYCKPbzWFncFn40KvvFLX&ou=9541&d2l_body_type=3#) (24 bits) of the address denote the vendor or manufacturer of the physical network interface. No two devices can have the same MAC address in the same local network; otherwise an address conflict occurs.
+- **Internet Protocol (IP) Address** - While MAC addresses are generally assigned in the firmware of the interface, IP hosts associate that address with a unique logical address. This logical IP address represents the network interface within the netwo]]
 
-# Networking at a Glance
 
-![[EDU-ELCC-70245a-Network_Diagram-techart-v06.svg]]
 
-This diagram represents a small business network, which we will build upon during this lesson. The lines depict wired connections. Notice how all devices behind the firewall connect via the network switch, and the firewall lies between the network switch and the internet. 
+
+A a small business network, which we will build upon during this lesson. all devices behind the firewall connect via the network switch, and the firewall lies between the network switch and the internet. 
 
 
 
@@ -123,7 +122,7 @@ The OSI Model was developed to establish a common way to describe the communicat
 The OSI model divides networking tasks into seven distinct layers. Each layer is responsible for performing specific tasks or operations with the goal of supporting data exchange (in other words, network communication) between two computers. The layers are interchangeably referenced by name or layer number. For example, Layer 3 is also known as the Network Layer. The layers are ordered specifically to indicate how information flows through the various levels of communication. Each layer communicates directly with the layer above and the layer below it. For example, Layer 3 communicates with both the Data Link (2) and Transport (4) layers.
 
 The Application, Presentation, and Session Layers (5-7) are commonly referred to simply as data. However, each layer has the potential to perform encapsulation. 
->[!Encapsulation]- 
+>[!Encapsulation]+ 
 >Enforcement of data hiding and code hiding during all phases of software development and operational use. 
 >Bundling ttogheter data and methods is the process of encapsulation; its opposite process may be called unpacking, revealing, or using other terms. 
 >Also used to refer to taking any set of data and packaging it or hiding it in another data structure, as is common in network protocols and encryption.
@@ -150,7 +149,7 @@ The inverse action occurs as data moves up the OSI model layers from Physical to
 # Transmission Control Protocol/Internet Protocol (TCP/IP)
 
 The OSI model wasn’t the first or only attempt to streamline networking protocols or establish a common communications standard. In fact, the most widely used protocol today, 
->[!TCP/IP]- 
+>[!TCP/IP]+ 
 >Internetworking protocol model created by IETF, which specify 4 layers of functionality:
 >*Link Layer* (physical communication)
 >*Internet Layer* (Network to Network communication)
@@ -172,7 +171,7 @@ At the Application Layer, TCP/IP protocols include Telnet, [File Transfer Proto
 
 
 The two primary Transport Layer protocols of TCP/IP are TCP and UDP. TCP is a full-duplex connection-oriented protocol, whereas UDP is a simplex connectionless protocol. In the Internet Layer, 
->[!Internet Control Message Protocol (ICMP)]-
+>[!Internet Control Message Protocol (ICMP)]+
 >An IP network protocol standardized by the Internet Engineering Task Force (IETF) through RFC 792 to determine if a particular service or host is available. 
 
 is used to determine the health of a network or a specific link. ICMP is utilized by ping, traceroute and other network management tools. The ping utility employs ICMP echo packets and bounces them off remote systems. Thus, you can use ping to determine whether the remote system is online, whether the remote system is responding promptly, whether the intermediary systems are supporting communications, and the level of performance efficiency at which the intermediary systems are communicating.
@@ -253,20 +252,20 @@ In a LAN, threat actors need to enter the physical space or immediate vicinity o
 
 TCP/IP’s vulnerabilities are numerous. Improperly implemented TCP/IP stacks in various operating systems are vulnerable to various 
 
->[!DoS/DDoS attacks]-
+>[!DoS/DDoS attacks]+
 >The prevention of authorized acccess to resources or the delaying of time-critical operations. (Time critical can be milliseconds or it may be hours, depending upon the service provided). NIST SP 800-27 REV. A 
 
->[!fragment attacks]- 
+>[!fragment attacks]+ 
 >In a fragmenti attack, an attacker fragments traffic in such a way that a system is unable to put data packets back togheter. 
 
->[!oversized packet attacks]-
+>[!oversized packet attacks]+
 >Purposely sending a network packet that is larger than expected or larger than can be handled by the receiving system, causing the receiving system to fail unexpectedly. 
 
->[!Spoofing attacks]-
+>[!Spoofing attacks]+
 >Faking the sending address of a transmission to gain illegal entry into a secure system. CNSSI 4009-2015 
 
 
->[!man-in-the-middle attacks]-
+>[!man-in-the-middle attacks]+
 >An attack where the adversary positions himself between the user and the systems so that he can intercept and alter data traveling between them. NISTIR 7711
 
 TCP/IP (as well as most protocols) is also subject to passive attacks via monitoring or sniffing. Network monitoring, or sniffing, is the act of monitoring traffic patterns to obtain information about a network. ![[EDU-ELCC-70245c-techart-Security_Network-v05.jpg]]
@@ -282,7 +281,6 @@ There are physical ports that you connect wires to and logical ports that determ
 [Physical Ports]()
 Physical ports are the ports on the routers, switches, servers, computers, etc. that you connect the wires, e.g., fiber optic cables, Cat5 cables, etc., to create a network.
 
-_Click on each tab to learn more._
 
 [Logical Ports]()
 
